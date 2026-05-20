@@ -1,0 +1,31 @@
+# Hugo default build outputs
+public/
+resources/
+_vendor/
+.hugo_build.lock
+
+# Build & Cache Directories
+.sass-cache/
+.eslintcache
+node_modules/
+
+# OS-Specific system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Developer/Editor Environments
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Lab Data Protection Guardrails (Prevent accidental data leakage)
+*.pdb
+*.cif
+*.fasta
+*.fastq
+*.csv
+*.xlsx
+*.tiff
+*.raw
