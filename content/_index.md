@@ -1,5 +1,7 @@
 ---
-title: "Welcome to the Schmitz Lab"
+title: "S C H M I T Z L A B"
 ---
 
-We investigate the structural mechanisms, biochemistry, and physiological roles of complex macromolecular machines. Our primary focus centers on **AAA+ enzymes** and cellular proteostasis networks regulating targeted protein degradation in microbial models. Using integrated platforms spanning X-ray crystallography, high-throughput screening assays, and molecular biochemistry, we seek to elucidate fundamental mechanics that guide drug target identification and enzyme design.
+All bacteria use ATP-fueled proteolytic machines to destroy cytosolic proteins. These enzymes remodel the proteome in response to environmental cues, enforce protein quality control, and modulate specific cellular pathways. The Schmitz Lab studies one group of these enzymes - the Clp proteases - in a variety of organisms, with a particular focus on the globally important human pathogen *Mycobacterium tuberculosis*. Clp proteases are essential for viability in mycobacteria and have emerged as attractive antibacterial targets.
+
+Clp proteases consist of an ATP-dependent unfoldase that engages and mechanically unfolds protein substrates, and a barrel-shaped peptidase that hydrolyzes the resulting denatured polypeptides. Our research aims to establish how cells regulate Clp protease activity, how specific substrates are selected from the complex proteome, how structural features of protease subunits contribute to proteolysis, and how small molecules can effectively dysregulate function. We use a variety of experimental tools, including biophysical and biochemical assays to probe protease assembly and function, X-ray crystallography to reveal protein structure, and molecular microbiology approaches to interrogate proteolytic processes in the cell.

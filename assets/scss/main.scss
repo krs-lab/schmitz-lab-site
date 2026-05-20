@@ -1,151 +1,167 @@
 :root {
-    --bg-color: #ffffff;
-    --text-color: #222222;
-    --accent-color: #00539b; 
-    --light-gray: #f4f4f5;
-    --border-color: #e4e4e7;
-    --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --wix-blue: #00539b;
+    --wix-gold: #ffcc00; // Sharp yellow-gold title bar
+    --text-color: #555555;
+    --border-blue: #2b70af;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--font-stack);
-    background-color: var(--bg-color);
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
     color: var(--text-color);
-    line-height: 1.6;
 }
 
-.site-header {
-    border-bottom: 1px solid var(--border-color);
-    background: var(--bg-color);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.header-container {
-    max-width: 1200px;
+// Remove default headers from baseof if necessary, or let index style it cleanly
+.wix-style-wrapper {
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 1.5rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
-.logo-branding {
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 0.35em;
-    text-decoration: none;
-    color: var(--text-color);
+.logo-container {
+    margin: 2rem auto 3rem auto;
+    .site-logo-img {
+        max-width: 450px;
+        height: auto;
+    }
+    .fallback-text-logo {
+        font-size: 2.5rem;
+        letter-spacing: 0.4em;
+        font-weight: normal;
+        color: #333;
+    }
 }
 
-.main-nav a {
-    margin-left: 2rem;
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    transition: color 0.2s ease;
-    
-    &:hover { color: var(--accent-color); }
+// Relocated Watermark Ticker Setup
+.matrix-ticker-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 3rem 0;
 }
 
-// --- Pure CSS Infinite Running Marquee Ticker ---
-.ticker-wrap {
+.bg-ticker-wrap {
+    position: absolute;
+    top: 50%;
+    left: 0;
     width: 100%;
     overflow: hidden;
-    background-color: var(--light-gray);
-    border-top: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
-    padding: 0.5rem 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.07; // Makes it a very faint background watermark
 }
 
-.ticker {
+.bg-ticker {
     display: inline-flex;
     white-space: nowrap;
-    animation: marquee 45s linear infinite;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--wix-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    animation: bgMarquee 60s linear infinite;
 }
 
-.ticker-item {
-    padding: 0 2rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #555;
-    display: inline-block;
+@keyframes bgMarquee {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-50%, 0, 0); }
+}
+
+// Horizontal Matrix Grid Layout
+.horizontal-nav-matrix {
+    position: relative;
+    z-index: 2; // Sits above background text ticker
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
     
-    &:after {
-        content: "•";
-        margin-left: 4rem;
-        color: #b5b5ba;
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 480px) {
+        grid-template-columns: 1fr;
     }
 }
 
-@keyframes marquee {
-    0% { transform: translate3d(0, 0, 0); }
-    100% { transform: translate3d(-50%, 0, 0); } // Loop point at mid-array duplication
-}
-
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-    min-height: 60vh;
-}
-
-// --- Visual Matrix Layout Grid ---
-.visual-matrix {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-.matrix-card {
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    overflow: hidden;
+// Square Matrix Cards
+.wix-matrix-card {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    color: var(--text-color);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    background: var(--bg-color);
+    border: 3px solid var(--border-blue);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); // Distinct drop shadow
+    background-color: #fff;
+    transition: transform 0.2s ease;
 
     &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 20px rgba(0,0,0,0.05);
-    }
-
-    .matrix-img {
-        width: 100%;
-        height: 220px;
-        object-fit: cover;
-        background-color: var(--light-gray);
-    }
-
-    .matrix-info {
-        padding: 1.5rem;
-        h3 { margin: 0 0 0.5rem 0; font-size: 1.25rem; }
-        p { margin: 0; font-size: 0.9rem; color: #555; }
+        transform: translateY(-2px);
+        
+        .blue-overlay {
+            opacity: 0.45; // Tints image darker blue on hover
+        }
     }
 }
 
-.site-footer {
-    background-color: var(--light-gray);
-    border-top: 1px solid var(--border-color);
-    padding: 3rem 2rem;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #555;
+// Square image container framework
+.wix-image-pane {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; // Forces perfect 1:1 Square aspect ratio
+    background-color: #e2e8f0;
     
-    p { margin: 0.4rem 0; }
-    .footer-brand { color: var(--text-color); font-size: 1.1rem; letter-spacing: 0.1em; }
-    .copyright { margin-top: 1.5rem; font-size: 0.8rem; color: #888; }
+    img, .wix-placeholder-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .blue-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #00264d; // Deep blue tint overlay
+        opacity: 0; // Completely clear normally
+        transition: opacity 0.25s ease;
+    }
 }
 
-@media (max-width: 768px) {
-    .header-container { flex-direction: column; text-align: center; gap: 1rem; }
-    .main-nav a { margin: 0 1rem; }
+// Gold Bottom Title Strip
+.wix-card-title-bar {
+    background: linear-gradient(to bottom, var(--wix-gold) 0%, #e6b800 100%);
+    border-top: 2px solid var(--border-blue);
+    padding: 0.75rem 0;
+    text-align: center;
+    
+    h3 {
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: bold;
+        color: #00264d; // Dark contrast text matching image overlay
+        text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+    }
+}
+
+// Centered Main Copy Style
+.lab-intro-copy {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    text-align: left; // Standard clean reading block alignment
+    color: #444444;
+    
+    p {
+        margin-bottom: 1.5rem;
+    }
 }
