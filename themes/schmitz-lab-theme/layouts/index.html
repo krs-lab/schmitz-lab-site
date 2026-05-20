@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="hero-intro">
+    <h1>{{ .Title }}</h1>
+    <div class="hero-text">
+        {{ .Content }}
+    </div>
+</section>
+
+<!-- The Visual Matrix Grid -->
+<section class="visual-matrix">
+    {{ range where .Site.RegularPages "Section" "research" }}
+    <a href="{{ .Permalink }}" class="matrix-card">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="matrix-img">
+        {{ else }}
+        <div class="matrix-img" style="display:flex; align-items:center; justify-content:center; color:#999; font-size:0.9rem; height:220px; background:#f4f4f5;">[ Structural Model ]</div>
+        {{ end }}
+        <div class="matrix-info">
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Params.summary }}</p>
+        </div>
+    </a>
+    {{ end }}
+</section>
+{{ end }}

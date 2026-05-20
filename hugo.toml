@@ -1,0 +1,35 @@
+baseURL = 'https://your-github-username.github.io/schmitz-lab-site/'
+languageCode = 'en-us'
+title = 'S C H M I T Z   L A B'
+theme = 'schmitz-lab-theme'
+
+[params]
+    description = 'Structural Biology, Microbiology, and Biochemistry Research at the University of Delaware.'
+    institution = 'University of Delaware'
+    department = 'Department of Biological Sciences'
+    location = 'Newark, DE 19716'
+    
+    # Research keywords for the running marquee ticker
+    ticker_keywords = [
+        "Structural Biology", "Microbiology", "Biochemistry", "Proteostasis", 
+        "AAA+ Enzymes", "X-ray Crystallography", "Protein Structure", 
+        "Enzyme Kinetics", "Metalloproteases", "Assay Development"
+    ]
+
+[menu]
+    [[menu.main]]
+        name = 'Research'
+        url = '/research/'
+        weight = 10
+    [[menu.main]]
+        name = 'People'
+        url = '/people/'
+        weight = 20
+    [[menu.main]]
+        name = 'Publications'
+        url = '/publications/'
+        weight = 30
+    [[menu.main]]
+        name = 'Resources'
+        url = '/resources/'
+        weight = 40
