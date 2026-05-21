@@ -78,7 +78,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
-    
+
+    max-width: 800px;
+    margin: 0 auto;
+
     @media (max-width: 800px) {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -98,6 +101,10 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); // Distinct drop shadow
     background-color: #fff;
     transition: transform 0.2s ease;
+
+    max-width: 180px;
+    justify-self: center;
+    width: 100%;
 
     &:hover {
         transform: translateY(-2px);
@@ -140,7 +147,7 @@ body {
 .wix-card-title-bar {
     background: linear-gradient(to bottom, var(--wix-gold) 0%, #e6b800 100%);
     border-top: 2px solid var(--border-blue);
-    padding: 0.75rem 0;
+    padding: 0.35rem 0;
     text-align: center;
     
     h3 {

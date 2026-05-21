@@ -1,6 +1,6 @@
 ---
 title: "Resources"
 weight: 4
-image: "images/matrix-resources.jpg"
+image: "images/matrix-resources.png"
 link: "/resources/"
 ---
