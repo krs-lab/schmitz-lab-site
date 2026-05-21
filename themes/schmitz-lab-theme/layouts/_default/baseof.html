@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
-    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    
+    {{ $style := resources.Get "scss/main.scss" }}
+    {{ if $style }}
+        {{ $secureStyle := $style | resources.ToCSS | resources.Minify }}
+        <link rel="stylesheet" href="{{ $secureStyle.Permalink }}">
+    {{ else }}
+        {{ end }}
 </head>
+<body>
+
 <body>
 
     <header class="site-header">

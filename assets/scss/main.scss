@@ -23,15 +23,55 @@ body {
 
 .logo-container {
     margin: 2rem auto 3rem auto;
+    text-align: center;
+
     .site-logo-img {
         max-width: 450px;
         height: auto;
     }
+
     .fallback-text-logo {
-        font-size: 2.5rem;
-        letter-spacing: 0.4em;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 50px;          // Explicit text height scaling ceiling
+        letter-spacing: 0.1em;   // Controls the tracking spacing between characters
         font-weight: normal;
-        color: #333;
+        margin: 0;
+        display: inline-block; // Keeps the text layout tracking tight and inline
+    }
+
+    // 1. Color both the S and L Wix Blue
+    .blue-letter {
+        color: var(--wix-blue);
+        font-weight: normal; // 
+    }
+
+    // 2. Structural Secondary Text Letters (C,H,M, T,Z, A,B)
+    .gray-letter {
+        color: #808080;           // Sets target letters to specific dark gray hue
+    }
+
+    // 3. Superimpose the crystal loop over the letter I
+    .icon-letter {
+        position: relative;
+        color: #ffffff !important; // sets text character "I" to white
+        display: inline-block;
+        width: 1ch; // Constrains the width to exactly one character space
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 40%;
+            top: 45%; // Adjust this percentage if you need to nudge the pin up or down
+            transform: translate(-50%, -50%);
+            width: 55px;  // Adjust width to scale your crystal pin perfectly
+            height: 55px; // Adjust height to match scale
+
+            background-image: url('../images/crystal_loop.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: 10;
+        }
     }
 }
 

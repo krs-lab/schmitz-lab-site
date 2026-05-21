@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="list-page-content" style="max-width: 800px; margin: 0 auto; padding: 2rem 1rem;">
+    <h1>{{ .Title }}</h1>
+    <div class="list-summary">
+        {{ .Content }}
+    </div>
+    <ul class="posts-list" style="list-style: none; padding: 0; margin-top: 2rem;">
+        {{ range .Pages }}
+        <li style="margin-bottom: 1.5rem;">
+            <a href="{{ .Permalink }}" style="font-size: 1.2rem; color: #00539b; text-decoration: none; font-weight: bold;">{{ .Title }}</a>
+            <p style="margin: 0.25rem 0 0 0; color: #666;">{{ .Params.summary }}</p>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

@@ -5,7 +5,9 @@
         {{ if (fileExists "static/images/logo.png") }}
             <img src="{{ "images/logo.png" | relURL }}" alt="Schmitz Lab Logo" class="site-logo-img">
         {{ else }}
-            <h1 class="fallback-text-logo">S C H M I T Z <span style="color:#00539b;">L</span> A B</h1>
+            <h1 class="fallback-text-logo">
+		    <span class="blue-letter">S</span> <span class="gray-letter">C H M</span> <span class="icon-letter">I</span> <span class="gray-letter">T Z</span> <span class="blue-letter">L</span> <span class="gray-letter">A B</span>
+	    </h1>
         {{ end }}
     </div>
 
