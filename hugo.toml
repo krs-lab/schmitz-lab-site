@@ -1,6 +1,6 @@
-baseURL = 'https://your-github-username.github.io/schmitz-lab-site/'
+baseURL = 'https://krs-lab.github.io/schmitz-lab-site/'
 languageCode = 'en-us'
-title = 'S C H M I T Z   L A B'
+title = 'Schmitz Lab'
 theme = 'schmitz-lab-theme'
 
 [params]
