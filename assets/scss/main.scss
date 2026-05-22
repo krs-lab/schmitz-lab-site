@@ -22,7 +22,7 @@ body {
 }
 
 .logo-container {
-    margin: 2rem auto 3rem auto;
+    margin: 0rem auto 1rem auto;
     text-align: center;
 
     .site-logo-img {
@@ -79,8 +79,8 @@ body {
 div.matrix-ticker-container {
     position: relative;
     width: 100%;
-    margin-bottom: 4rem;
-    padding: 3.5rem 1.5rem;   // Generates internal padding border spacing around your grid layout
+    margin-bottom: 2rem;
+    padding: 1.5rem 1.5rem;   // Generates internal padding border spacing around your grid layout
     background-color: #f8f8f8; // Soft, off-white/light-gray wallpaper background box
     // border: 1px solid #eef0f2;
     border-radius: 5px;
@@ -96,7 +96,7 @@ div.bg-ticker-wrap {
     height: 100%;
     z-index: 1;
     pointer-events: none;     // Keeps text completely un-selectable so cards are easy to click
-    padding: 1.5rem;
+    padding: 0.3rem;
     box-sizing: border-box;
     margin: 0; // clears default paragraph element
 }
@@ -104,11 +104,11 @@ div.bg-ticker-wrap {
 p.bg-ticker {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 1.0rem !important;       // Matches the visual size scale of the background characters
-    font-weight: 800 !important;         // Bold presence to echo the tracking weight
-    line-height: 1.4 !important;
+    font-weight: normal !important;         // Bold presence to echo the tracking weight
+    line-height: 1.2 !important;
     letter-spacing: 0.12em !important;
 
-    color: #f1f1fd !important;           // Ghosted, slightly darker gray text color overlay
+    color: #e0e0e0 !important;           // Ghosted, slightly darker gray text color overlay
     text-align: justify !important;      // Distributes the keyword string uniformly across the canvas
     text-justify: inter-word !important; // Sets spacing between words to auto
     text-align-last: justify !important; //
@@ -208,19 +208,20 @@ p.bg-ticker {
     
     h3 {
         margin: 0;
-        font-size: 1.15rem;
+        font-size: 1.2rem;
         font-weight: bold;
-        color: #00264d; // Dark contrast text matching image overlay
+        color: #00268d; // Dark contrast text matching image overlay
         text-shadow: 0 1px 0 rgba(255,255,255,0.4);
     }
 }
 
 // Centered Main Copy Style
 .lab-intro-copy {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     max-width: 850px;
     margin: 0 auto;
     font-size: 1.05rem;
-    line-height: 1.75;
+    line-height: 1.5;
     text-align: left; // Standard clean reading block alignment
     color: #444444;
     
