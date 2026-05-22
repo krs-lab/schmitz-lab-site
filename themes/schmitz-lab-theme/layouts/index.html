@@ -14,13 +14,13 @@
     <div class="matrix-ticker-container">
         
         <div class="bg-ticker-wrap">
-            <div class="bg-ticker">
-                {{ range seq 5 }}
+            <p class="bg-ticker">
+                {{ range seq 30 }}
                     {{ range $.Site.Params.ticker_keywords }}
-                        <span>{{ . }} • </span>
+                        {{ . | upper }} •
                     {{ end }}
                 {{ end }}
-            </div>
+            </p>
         </div>
 
         <section class="horizontal-nav-matrix">

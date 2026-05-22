@@ -17,29 +17,6 @@
 
 <body>
 
-    <header class="site-header">
-        <div class="header-container">
-            <a href="/" class="logo-branding">{{ .Site.Title }}</a>
-            <nav class="main-nav">
-                {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}">{{ .Name }}</a>
-                {{ end }}
-            </nav>
-        </div>
-        
-        <!-- Pure CSS Infinite Running Keyword Ticker -->
-        <div class="ticker-wrap">
-            <div class="ticker">
-                <!-- Repeating rows ensures an uninterrupted visual animation train -->
-                {{ range seq 4 }}
-                    {{ range $.Site.Params.ticker_keywords }}
-                    <span class="ticker-item">{{ . }}</span>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-    </header>
-
     <main class="main-content">
         {{ block "main" . }}{{ end }}
     </main>
