@@ -2,5 +2,5 @@
 title: "People"
 weight: 2
 image: "images/matrix-people.jpg"
-link: "/people/"
+link: "/schmitz-lab-site/people/"
 ---

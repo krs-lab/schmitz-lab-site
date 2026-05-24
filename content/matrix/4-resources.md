@@ -2,5 +2,5 @@
 title: "Resources"
 weight: 4
 image: "images/matrix-resources.png"
-link: "/resources/"
+link: "/schmitz-lab-site/resources/"
 ---
