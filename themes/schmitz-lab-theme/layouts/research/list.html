@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="wix-style-wrapper">
+    
+    <div class="research-split-layout">
+        
+        <aside class="research-sidebar">
+            <h2 class="sidebar-title">Research</h2>
+            <nav class="sidebar-nav-links">
+                <a href="#overview" class="sidebar-anchor-link active">Overview</a>
+                {{ range sort .Pages ".Params.weight" }}
+                    <a href="#{{ .File.TranslationBaseName }}" class="sidebar-anchor-link">{{ .Title }}</a>
+                {{ end }}
+            </nav>
+        </aside>
+
+        <main class="research-content-stream">
+            
+            <section id="overview" class="research-project-block">
+                <h1 class="project-main-heading">{{ .Title }}</h1>
+                <div class="project-markdown-body">
+                    {{ .Content }}
+                </div>
+            </section>
+
+            <hr class="project-divider">
+
+            {{ range $index, $page := .Pages }}
+            <section id="{{ $page.File.TranslationBaseName }}" class="research-project-block">
+                <h2 class="project-sub-heading">{{ $page.Title }}</h2>
+                
+                <div class="project-flex-row">
+                    <div class="project-text-pane">
+                        {{ $page.Content }}
+                    </div>
+                    
+                    {{ if $page.Params.image }}
+                    <div class="project-graphic-pane">
+                        <img src="{{ $page.Params.image | relURL }}" alt="{{ $page.Title }}" class="scientific-figure">
+                    </div>
+                    {{ end }}
+                </div>
+            </section>
+            
+            {{ if lt $index (sub (len $.Pages) 1) }}
+                <hr class="project-divider">
+            {{ end }}
+            
+            {{ end }}
+
+        </main>
+    </div>
+
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('.sidebar-anchor-link');
+        const sections = document.querySelectorAll('.research-project-block');
+
+        window.addEventListener('scroll', () => {
+            let current = 'overview';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 120) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            links.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    });
+</script>
+{{ end }}
