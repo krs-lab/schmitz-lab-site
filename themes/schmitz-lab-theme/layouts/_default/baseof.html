@@ -6,10 +6,11 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
     
+    <!With Fingerprinting to prevent cache issues -->
     {{ $style := resources.Get "scss/main.scss" }}
     {{ if $style }}
-        {{ $secureStyle := $style | resources.ToCSS | resources.Minify }}
-        <link rel="stylesheet" href="{{ $secureStyle.Permalink }}">
+        {{ $secureStyle := $style | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    	<link rel="stylesheet" href="{{ $secureStyle.RelPermalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
     {{ else }}
         {{ end }}
 </head>
