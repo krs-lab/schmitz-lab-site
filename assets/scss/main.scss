@@ -25,6 +25,18 @@ body {
     margin: 0rem auto 1rem auto;
     text-align: center;
 
+    // Remove link decoration while preserving character spacing and pointer cursor
+    .logo-link {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+            opacity: 0.85; // Subtle visual feedback on hover
+        }
+    }
+
     .site-logo-img {
         max-width: 450px;
         height: auto;

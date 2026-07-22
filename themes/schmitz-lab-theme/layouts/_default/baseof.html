@@ -6,7 +6,7 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ .Site.Params.description }}">
     
-    <!With Fingerprinting to prevent cache issues -->
+    <!-- With Fingerprinting to prevent cache issues -->
     {{ $style := resources.Get "scss/main.scss" }}
     {{ if $style }}
         {{ $secureStyle := $style | resources.ToCSS | resources.Minify | resources.Fingerprint }}
@@ -23,12 +23,14 @@
                 <img src="{{ "images/logo.png" | relURL }}" alt="Schmitz Lab Logo" class="site-logo-img">
             {{ else }}
                 <h1 class="fallback-text-logo">
-		    <span class="blue-letter">S</span>
-		    <span class="gray-letter">C H M</span>
-		    <span class="icon-letter">I</span>
-		    <span class="gray-letter">T Z</span>
-		    <span class="blue-letter">L</span>
-		    <span class="gray-letter">A B</span>
+                   	<a href="{{ "" | relURL }}" class="logo-link" title="Return to Schmitz Lab Homepage">
+		    		<span class="blue-letter">S</span>
+		    		<span class="gray-letter">C H M</span>
+		    		<span class="icon-letter">I</span>
+		    		<span class="gray-letter">T Z</span>
+		    		<span class="blue-letter">L</span>
+		    		<span class="gray-letter">A B</span>
+		    	</a>
 	        </h1>
             {{ end }}
         </div>
