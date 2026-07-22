@@ -15,17 +15,64 @@
 </head>
 <body>
 
-<body>
+    <div class="wix-style-wrapper">
+        <!-- PERSISTENT TOP PANEL: Logo Header -->
+        <div class="logo-container">
+            {{ if (fileExists "static/images/logo.png") }}
+                <img src="{{ "images/logo.png" | relURL }}" alt="Schmitz Lab Logo" class="site-logo-img">
+            {{ else }}
+                <h1 class="fallback-text-logo">
+		    <span class="blue-letter">S</span>
+		    <span class="gray-letter">C H M</span>
+		    <span class="icon-letter">I</span>
+		    <span class="gray-letter">T Z</span>
+		    <span class="blue-letter">L</span>
+		    <span class="gray-letter">A B</span>
+	        </h1>
+            {{ end }}
+        </div>
 
-    <main class="main-content">
-        {{ block "main" . }}{{ end }}
-    </main>
+        <!-- PERSISTENT TOP PANEL: Matrix Grid Links -->
+        <div class="matrix-ticker-container">
+            <div class="bg-ticker-wrap">
+            	<!-- This light gray text just repeats in the background -->
+                <p class="bg-ticker">
+                    {{ range seq 20 }}
+                        STRUCTURAL BIOLOGY • MICROBIOLOGY • BIOCHEMISTRY • PROTEOSTASIS • AAA+ ENZYMES • X-RAY CRYSTALLOGRAPHY • 
+                    {{ end }}
+                </p>
+            </div>
+
+            <section class="horizontal-nav-matrix">
+                <a href="/schmitz-lab-site/research/" class="wix-matrix-card">
+                    <div class="wix-image-pane"><img src="{{ "images/matrix-research.jpg" | relURL }}" alt="Research"></div>
+                    <div class="wix-card-title-bar"><h3>Research</h3></div>
+                </a>
+                <a href="/schmitz-lab-site/people/" class="wix-matrix-card">
+                    <div class="wix-image-pane"><img src="{{ "images/matrix-people.jpg" | relURL }}" alt="People"></div>
+                    <div class="wix-card-title-bar"><h3>People</h3></div>
+                </a>
+                <a href="/schmitz-lab-site/publications/" class="wix-matrix-card">
+                    <div class="wix-image-pane"><img src="{{ "images/matrix-publications.png" | relURL }}" alt="Publications"></div>
+                    <div class="wix-card-title-bar"><h3>Publications</h3></div>
+                </a>
+                <a href="/schmitz-lab-site/resources/" class="wix-matrix-card">
+                    <div class="wix-image-pane"><img src="{{ "images/matrix-resources.png" | relURL }}" alt="Resources"></div>
+                    <div class="wix-card-title-bar"><h3>Resources</h3></div>
+                </a>
+            </section>
+        </div>
+
+        <!-- DYNAMIC CONTENT AREA -->
+        <main class="main-content-body">
+            {{ block "main" . }}{{ end }}
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="footer-container">
             <p class="footer-brand"><strong>{{ .Site.Title }}</strong></p>
-            <p>{{ .Site.Params.department }} | {{ .Site.Params.institution }}</p>
-            <p>{{ .Site.Params.location }}</p>
+            <p><a href="https://www.udel.edu/academics/colleges/cas/units/departments/biological-sciences/">{{ .Site.Params.department }}</a> | <a href="https://www.udel.edu/academics/colleges/cas/units/departments/chem-biochem/">{{ .Site.Params.department2 }}</a> | <a href="https://www.udel.edu/">{{ .Site.Params.institution }}</a></p>
             <p class="copyright">&copy; {{ now.Format "2006" }} Schmitz Lab. All Rights Reserved.</p>
         </div>
     </footer>

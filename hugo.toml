@@ -7,6 +7,7 @@ theme = 'schmitz-lab-theme'
     description = 'Structural Biology, Microbiology, and Biochemistry Research at the University of Delaware.'
     institution = 'University of Delaware'
     department = 'Department of Biological Sciences'
+    department2 = 'Department of Chemistry & Biochemistry'
     location = 'Newark, DE 19716'
     
     # Research keywords for the running marquee ticker
@@ -33,3 +34,8 @@ theme = 'schmitz-lab-theme'
         name = 'Resources'
         url = '/resources/'
         weight = 40
+        
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
