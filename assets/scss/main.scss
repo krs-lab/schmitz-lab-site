@@ -181,6 +181,21 @@ p.bg-ticker {
             opacity: 0.45; // Tints image darker blue on hover
         }
     }
+    
+    // ACTIVE STATE: Triggered when visiting the active page
+    &.active {
+        border-color: #00268d;
+
+        .wix-card-title-bar {
+            background: #00268d; // Solid dark blue background
+            border-top: 2px solid #001a66;
+
+            h3 {
+                color: #ffffff !important; // Crisp white text
+                text-shadow: none; // Remove gold contrast shadow
+            }
+        }
+    }
 }
 
 // Square image container framework
@@ -217,6 +232,7 @@ p.bg-ticker {
     border-top: 2px solid var(--border-blue);
     padding: 0.35rem 0;
     text-align: center;
+    transition: background 0.2s ease;
     
     h3 {
         margin: 0;

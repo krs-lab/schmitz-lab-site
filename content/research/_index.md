@@ -2,10 +2,6 @@
 title: "Research Test Page"
 ---
 
-If you can see this text, the research page successfully exists!
-
-All bacteria use ATP-fueled proteolytic machines to destroy cytosolic proteins. These enzymes remodel the proteome in response to environmental cues, enforce protein quality control, and modulate specific cellular pathways. The Schmitz Lab studies one group of these enzymes — the Clp proteases — in a variety of organisms, with a particular focus on the globally important human pathogen *Mycobacterium tuberculosis*. Clp proteases are essential for viability in mycobacteria and have emerged as attractive antibacterial targets.
-
 <section class="research-feature-row">
     <div class="feature-text-block">
         <h3>Mechanisms of Clp Protease Regulation</h3>

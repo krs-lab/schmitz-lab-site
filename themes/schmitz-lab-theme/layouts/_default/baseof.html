@@ -46,24 +46,31 @@
                 </p>
             </div>
 
-            <section class="horizontal-nav-matrix">
-                <a href="/schmitz-lab-site/research/" class="wix-matrix-card">
-                    <div class="wix-image-pane"><img src="{{ "images/matrix-research.jpg" | relURL }}" alt="Research"></div>
-                    <div class="wix-card-title-bar"><h3>Research</h3></div>
-                </a>
-                <a href="/schmitz-lab-site/people/" class="wix-matrix-card">
-                    <div class="wix-image-pane"><img src="{{ "images/matrix-people.jpg" | relURL }}" alt="People"></div>
-                    <div class="wix-card-title-bar"><h3>People</h3></div>
-                </a>
-                <a href="/schmitz-lab-site/publications/" class="wix-matrix-card">
-                    <div class="wix-image-pane"><img src="{{ "images/matrix-publications.png" | relURL }}" alt="Publications"></div>
-                    <div class="wix-card-title-bar"><h3>Publications</h3></div>
-                </a>
-                <a href="/schmitz-lab-site/resources/" class="wix-matrix-card">
-                    <div class="wix-image-pane"><img src="{{ "images/matrix-resources.png" | relURL }}" alt="Resources"></div>
-                    <div class="wix-card-title-bar"><h3>Resources</h3></div>
-                </a>
-            </section>
+		<section class="horizontal-nav-matrix">
+		    <!-- RESEARCH CARD -->
+		    <a href="{{ "research/" | relURL }}" class="wix-matrix-card{{ if eq $.Section "research" }} active{{ end }}">
+			<div class="wix-image-pane"><img src="{{ "images/matrix-research.jpg" | relURL }}" alt="Research"></div>
+			<div class="wix-card-title-bar"><h3>Research</h3></div>
+		    </a>
+		    
+		    <!-- PEOPLE CARD -->
+		    <a href="{{ "people/" | relURL }}" class="wix-matrix-card{{ if eq $.Section "people" }} active{{ end }}">
+			<div class="wix-image-pane"><img src="{{ "images/matrix-people.jpg" | relURL }}" alt="People"></div>
+			<div class="wix-card-title-bar"><h3>People</h3></div>
+		    </a>
+		    
+		    <!-- PUBLICATIONS CARD -->
+		    <a href="{{ "publications/" | relURL }}" class="wix-matrix-card{{ if eq $.Section "publications" }} active{{ end }}">
+			<div class="wix-image-pane"><img src="{{ "images/matrix-publications.png" | relURL }}" alt="Publications"></div>
+			<div class="wix-card-title-bar"><h3>Publications</h3></div>
+		    </a>
+		    
+		    <!-- RESOURCES CARD -->
+		    <a href="{{ "resources/" | relURL }}" class="wix-matrix-card{{ if eq $.Section "resources" }} active{{ end }}">
+			<div class="wix-image-pane"><img src="{{ "images/matrix-resources.png" | relURL }}" alt="Resources"></div>
+			<div class="wix-card-title-bar"><h3>Resources</h3></div>
+		    </a>
+		</section>
         </div>
 
         <!-- DYNAMIC CONTENT AREA -->
