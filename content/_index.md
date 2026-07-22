@@ -6,4 +6,6 @@ All bacteria use ATP-fueled proteolytic machines to destroy cytosolic proteins. 
 
 Clp proteases consist of an ATP-dependent unfoldase that engages and mechanically unfolds protein substrates, and a barrel-shaped peptidase that hydrolyzes the resulting denatured polypeptides. Our research aims to establish how cells regulate Clp protease activity, how specific substrates are selected from the complex proteome, how structural features of protease subunits contribute to proteolysis, and how small molecules can effectively dysregulate function. We use a variety of experimental tools, including biophysical and biochemical assays to probe protease assembly and function, X-ray crystallography to reveal protein structure, and molecular microbiology approaches to interrogate proteolytic processes in the cell.
 
-We also actively purse a number of cool side projects touching on other aspects of proteostasis, infectious disease, and synthetic biology.
+We also actively purse a number of side projects touching on other aspects of proteostasis, infectious disease, and synthetic biology.
+
+

@@ -229,3 +229,116 @@ p.bg-ticker {
         margin-bottom: 1.5rem;
     }
 }
+
+/* ==========================================================================
+   GLOBAL MAIN CONTENT & TEXT JUSTIFICATION
+   ========================================================================== */
+
+.main-content-body {
+    max-width: 980px;         // Aligns with the maximum width profile of the navigation matrix
+    margin: 1.0rem auto 1.0rem auto;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+
+    p {
+        text-align: justify;      // Flushes paragraph edges on both left and right margins
+        text-justify: inter-word; // Distributes word spacing evenly along lines
+        line-height: 1.25;
+        color: #333333;
+        font-size: 1.05rem;
+        margin-bottom: 1.5rem;
+    }
+
+    // Keep section headings left-aligned for clear visual hierarchy
+    h1, h2, h3, h4 {
+        text-align: left;
+        color: var(--wix-blue);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+// Side-by-side Research/Project Feature Rows
+.research-feature-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+    margin: 2.5rem 0;
+
+    @media (max-width: 768px) {
+        flex-direction: column; // Gracefully stacks on smaller mobile viewports
+    }
+
+    .feature-text-block {
+        flex: 1;
+
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    }
+
+    .feature-image-block {
+        width: 280px;
+        flex-shrink: 0;
+        border: 2px solid var(--border-blue);
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            max-width: 360px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+    }
+}
+
+/* ==========================================================================
+   INSTITUTIONAL FOOTER SIGNATURE BLOCK
+   ========================================================================== */
+
+.site-footer {
+    border-top: 1px dotted #4a7bb0; // Divider matching the Wix accent line
+    padding: 1.0rem 1rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+
+    .footer-container {
+        max-width: 980px;
+        margin: 0 auto;
+
+        p {
+            margin: 0.35rem 0;
+            font-size: 0.95rem;
+            color: #555555;
+            line-height: 1.4;
+        }
+
+        .footer-brand {
+            font-size: 1.15rem;
+            color: var(--wix-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-address {
+            color: #666666;
+            font-size: 0.9rem;
+        }
+
+        .copyright {
+            margin-top: 1.25rem;
+            font-size: 0.825rem;
+            color: #888888;
+        }
+    }
+}

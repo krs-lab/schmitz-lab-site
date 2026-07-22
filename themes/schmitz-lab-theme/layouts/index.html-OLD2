@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="wix-style-wrapper">
+
+    <div class="logo-container">
+        {{ if (fileExists "static/images/logo.png") }}
+            <img src="{{ "images/logo.png" | relURL }}" alt="Schmitz Lab Logo" class="site-logo-img">
+        {{ else }}
+            <h1 class="fallback-text-logo">
+		    <span class="blue-letter">S</span> <span class="gray-letter">C H M</span> <span class="icon-letter">I</span> <span class="gray-letter">T Z</span> <span class="blue-letter">L</span> <span class="gray-letter">A B</span>
+	    </h1>
+        {{ end }}
+    </div>
+
+    <div class="matrix-ticker-container">
+        
+        <div class="bg-ticker-wrap">
+            <p class="bg-ticker">
+                {{ range seq 30 }}
+                    {{ range $.Site.Params.ticker_keywords }}
+                        {{ . | upper }} •
+                    {{ end }}
+                {{ end }}
+            </p>
+        </div>
+
+        <section class="horizontal-nav-matrix">
+            {{ range sort (where .Site.RegularPages "Section" "matrix") ".Params.weight" }}
+            <a href="{{ .Params.link }}" class="wix-matrix-card">
+                <div class="wix-image-pane">
+                    {{ if (fileExists (printf "static/%s" .Params.image)) }}
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+                    {{ else }}
+                        <div class="wix-placeholder-img"></div>
+                    {{ end }}
+                    <div class="blue-overlay"></div>
+                </div>
+                <div class="wix-card-title-bar">
+                    <h3>{{ .Title }}</h3>
+                </div>
+            </a>
+            {{ end }}
+        </section>
+    </div>
+
+    <article class="lab-intro-copy">
+        {{ .Content }}
+    </article>
+
+</div>
+{{ end }}
