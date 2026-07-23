@@ -91,7 +91,7 @@ body {
 div.matrix-ticker-container {
     position: relative;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1.5rem 1.5rem;   // Generates internal padding border spacing around your grid layout
     background-color: #f8f8f8; // Soft, off-white/light-gray wallpaper background box
     // border: 1px solid #eef0f2;
@@ -143,7 +143,7 @@ p.bg-ticker {
     z-index: 2; // Sits above background text ticker
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
+    gap: 1.0rem;
 
     max-width: 1000px;
     margin: 0 auto;
@@ -281,11 +281,79 @@ p.bg-ticker {
     h1, h2, h3, h4 {
         text-align: left;
         color: var(--wix-blue);
-        margin-top: 1rem;
+        margin-top: 0rem;
         margin-bottom: 1rem;
     }
-}
+    
+    ul {
+        list-style-type: none;
+        padding-left: 1.0rem;  // Indentation from left
+        margin-left: 1.0rem;
+        margin-bottom: 0.5rem;
 
+        li {
+            font-size: 1.05rem;
+            text-align: left;
+            line-height: 1.5;
+            color: #333333;
+
+            a {
+                color: #2b70af;
+                font-weight: bold;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--wix-blue);
+                }
+            }
+        }
+    }
+    	/* ==========================================================================
+  	 Specific modifications for Publications page content 
+   	========================================================================== */
+    	ul.publications-list,
+	.publications-list {
+	    list-style-type: none;
+	    padding-left: 0;
+	    margin: 0 0 1rem 0;
+
+	    li {
+		text-align: left;
+		font-size: 0.92rem;        // Smaller font size for dense publication rendering
+		line-height: 1.2;         // Compact yet readable line height
+		color: #555555;
+		margin-bottom: 0.5rem;    // Clear separation between entries
+		padding-bottom: 0.5rem;
+
+		/* Highlight lab PI name */
+		strong {
+		    color: #AA00C3;         // Purple accent matching original design
+		    font-weight: normal;
+		}
+
+		/* Article Title Links */
+		a {
+		    color: #008AFC;
+		    text-decoration: none;
+		    font-weight: normal;
+
+		    &:hover {
+		        text-decoration: underline;
+		    }
+		}
+
+		/* Journal Titles & Emphasis */
+		em {
+		    font-style: italic;
+		    color: #333333;
+		}
+	    }
+	}
+}
+/* ==========================================================================
+   RESEARCH CONTENT 
+   ========================================================================== */
 // Side-by-side Research/Project Feature Rows
 .research-feature-row {
     display: flex;
@@ -370,3 +438,39 @@ p.bg-ticker {
         }
     }
 }
+
+/* ==========================================================================
+   PUBLICATIONS PAGE STYLING
+   ========================================================================== */
+
+/* Header Top Link Bar */
+.pub-links-bar {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    color: #666666;
+
+    a {
+        color: var(--wix-blue, #00539b);
+        text-decoration: underline;
+        font-weight: 500;
+
+        &:hover {
+            color: #2b70af;
+        }
+    }
+}
+
+/* Category Headers (Postdoc, Graduate, Undergrad) */
+.pub-section-heading {
+    text-align: center;
+    color: var(--wix-blue, #00539b);
+    font-size: 1.15rem;
+    margin-top: 2.0rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.35rem;
+}
+
+
