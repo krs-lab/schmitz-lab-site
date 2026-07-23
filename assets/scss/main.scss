@@ -115,12 +115,12 @@ div.bg-ticker-wrap {
 
 p.bg-ticker {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-size: 1.0rem !important;       // Matches the visual size scale of the background characters
+    font-size: 0.85rem !important;       // Matches the visual size scale of the background characters
     font-weight: normal !important;         // Bold presence to echo the tracking weight
     line-height: 1.2 !important;
     letter-spacing: 0.12em !important;
 
-    color: #e0e0e0 !important;           // Ghosted, slightly darker gray text color overlay
+    color: #B6E1DE !important;           // Ghosted, slightly darker gray text color overlay
     text-align: justify !important;      // Distributes the keyword string uniformly across the canvas
     text-justify: inter-word !important; // Sets spacing between words to auto
     text-align-last: justify !important; //
