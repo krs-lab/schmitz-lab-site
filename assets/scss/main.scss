@@ -44,11 +44,15 @@ body {
 
     .fallback-text-logo {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 50px;          // Explicit text height scaling ceiling
+        // Scales with viewport width instead of a fixed 50px, so "AB" never
+        // gets pushed to a second line on narrow phones. Caps at 50px so
+        // desktop/tablet rendering is unchanged from before.
+        font-size: clamp(1.5rem, 7vw, 50px);
         letter-spacing: 0.1em;   // Controls the tracking spacing between characters
         font-weight: normal;
         margin: 0;
         display: inline-block; // Keeps the text layout tracking tight and inline
+        white-space: nowrap;   // Keep all letters on one line; font-size shrinks instead
     }
 
     // 1. Color both the S and L Wix Blue
@@ -148,12 +152,10 @@ p.bg-ticker {
     max-width: 1000px;
     margin: 0 auto;
 
-    @media (max-width: 900px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
     @media (max-width: 480px) {
-        grid-template-columns: 1fr;
-        max-width: 240px;
+        gap: 3vw;
+        max-width: 100%;
+        padding: 0 0.6rem;
     }
 }
 
@@ -173,6 +175,11 @@ p.bg-ticker {
     max-width: 200px;
     justify-self: center;
     width: 100%;
+
+    // Lets child elements size text using cqw (% of THIS card's own width)
+    // rather than viewport width — so the title always matches the card's
+    // actual rendered size, no matter how many columns are on screen.
+    container-type: inline-size;
 
     &:hover {
         transform: translateY(-2px);
@@ -230,16 +237,23 @@ p.bg-ticker {
 .wix-card-title-bar {
     background: linear-gradient(to bottom, var(--wix-gold) 0%, #e6b800 100%);
     border-top: 2px solid var(--border-blue);
-    padding: 0.35rem 0;
+    padding: 0.35rem 0.15rem;
     text-align: center;
     transition: background 0.2s ease;
     
     h3 {
         margin: 0;
-        font-size: 1.2rem;
+        // 13% of the card's own width, floor/ceiling keep it sane at extremes.
+        // Because this reads the CARD's width (via container-type above) rather
+        // than the viewport, it scales correctly no matter how many cards are
+        // in a row.
+        font-size: clamp(0.55rem, 13cqw, 1.2rem);
         font-weight: bold;
         color: #00268d; // Dark contrast text matching image overlay
         text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
