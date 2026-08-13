@@ -6,18 +6,27 @@
 </div>
 
 <ul class="publications-list">
-    <li>
-	Anderson HR, Kandel P, Ogbonna EC, <strong>Schmitz KR</strong>. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">Phosphoarginine modulates oligomerization and repressor activity of mycobacterial ClpC2</a>. <em>bioRxiv</em> [Preprint]. 2026 Jul 1:2026.06.30.735635. doi: 10.64898/2026.06.30.735635. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42427542/" target="_blank" rel="noopener">42427542</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13345244/" target="_blank" rel="noopener">PMC13345244</a>.
-    </li>
-    <li>
-    	Bolt AE, Richardson AE, Pike CM, Noll RR, Yu Y, Neunuebel JP, Le Marchand S, <strong>Schmitz KR</strong>, Neunuebel MR. <a href="https://journals.asm.org/doi/10.1128/spectrum.03824-25" target="_blank" rel="noopener">Systematic discovery of novel phosphoinositide-binding effectors in <i>Legionella</i> reveals conserved ɑ-helical folds</a>. <em>Microbiol Spectr</em>. 2026 Jun 30:e0382425. doi: 10.1128/spectrum.03824-25. Epub ahead of print. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42379826/" target="_blank" rel="noopener">42379826</a>.
-    </li>
-    <li>
-	Presloid CJ*, Jiang J*, Kandel P, Anderson HR, Beardslee PC, Swayne TM, <strong>Schmitz KR</strong>. 
+   <li>
+   Fei F, Burnside CM, Lun S, Wee D, Kaur M, Anderson HR, McCarroll MN, Richardson AE, Neglia SE, Liu H, Wang X, Gupta S, Rhee KY, Wright GD, Bryson BD, Oehlers SH, Bishai WR, <strong>Schmitz KR</strong>, Sello JK. Structural and mechanistric studies of ADEPs yield a potent antibacterials and a drug formulation strategy for tuberculosis. J Med Chem. 2026. <i>in press</i>
+   </li>
+   <li>
+   Kandel P, Beardslee PC, <strong>Schmitz KR</strong>. <a href="https://link.springer.com/protocol/10.1007/978-1-0716-5508-5_17">Assessment of Bacterial N-Degron Proteolysis by a Dual-Fluorescence Reporter</a>. Methods Mol Biol. 2026;3069:233-245. doi: 10.1007/978-1-0716-5508-5_17. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42573702/">42573702</a>.
+   </li>
+   <li>
+   Anderson HR, Kandel P, Ogbonna EC, <strong>Schmitz KR</strong>. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">Phosphoarginine modulates oligomerization and repressor activity of mycobacterial ClpC2</a>. <em>bioRxiv</em> [Preprint]. 2026 Jul 1:2026.06.30.735635. doi: 10.64898/2026.06.30.735635. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42427542/" target="_blank" rel="noopener">42427542</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13345244/" target="_blank" rel="noopener">PMC13345244</a>.
+   </li>
+   <li>
+   Das K, Dzurik KG, Singh Y, Yu Y, <strong>Schmitz KR</strong>, Schrader JM, Childers WS, Bird JG. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">The <i>E. coli</i> DEAD box ATPase CsdA is a NAD+ capped RNA binding protein</a>. <em>bioRxiv</em> [Preprint]. 2026 Jun 4:2026.06.03.730015. doi: 10.64898/2026.06.03.730015. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42282715/" target="_blank" rel="noopener">42282715</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13252401/" target="_blank" rel="noopener">PMC13252401</a>.
+   </li>
+   <li>
+   Bolt AE, Richardson AE, Pike CM, Noll RR, Yu Y, Neunuebel JP, Le Marchand S, <strong>Schmitz KR</strong>, Neunuebel MR. <a href="https://journals.asm.org/doi/10.1128/spectrum.03824-25" target="_blank" rel="noopener">Systematic discovery of novel phosphoinositide-binding effectors in <i>Legionella</i> reveals conserved ɑ-helical folds</a>. <em>Microbiol Spectr</em>. 2026 Aug 4;14(8):e0382425. doi: 10.1128/spectrum.03824-25. Epub 2026 Jun 30. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42379826/" target="_blank" rel="noopener">42379826</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13435680/">PMC13435680</a>.
+   </li>
+   <li>
+   Presloid CJ*, Jiang J*, Kandel P, Anderson HR, Beardslee PC, Swayne TM, <strong>Schmitz KR</strong>. 
 	<a href="https://onlinelibrary.wiley.com/doi/10.1111/mmi.15334" target="_blank" rel="noopener">ClpS directs degradation of primary N-end rule substrates in <i>Mycolicibacterium smegmatis</i></a>. 
 	<em>Mol Microbiol</em>. 2025 Jan;123(1):16-30. doi: 10.1111/mmi.15334. Epub 2024 Dec 3. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39626090/" target="_blank" rel="noopener">39626090</a>; PubMed Central PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11717620/" target="_blank" rel="noopener">PMC11717620</a>. <em>*equal contribution</em>
-    </li>
-    <li>
+   </li>
+   <li>
 	Beardslee PC, <strong>Schmitz KR</strong>. 
 	<a href="https://elifesciences.org/reviewed-preprints/98528" target="_blank" rel="noopener">Toxin-based screening of C-terminal tags in <i>Escherichia coli</i> reveals the exceptional potency of ssrA-like degrons</a>. 
 	<em>eLife</em>. 2024 June 14. doi: 10.7554/eLife.98528.1.sa3. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38352471/" target="_blank" rel="noopener">38352471</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10862746/" target="_blank" rel="noopener">PMC10862746</a>.

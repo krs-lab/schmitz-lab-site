@@ -25,6 +25,3 @@ The Schmitz Lab is committed to open science and sharing resources with the broa
 
 ## Lab Protocols & Plasmids (under development)
 * [Schmitz Lab Plasmids at Addgene](https://www.addgene.org/Karl_Schmitz/)
-* **Protein Expression & Purification:** Standardized workflows for Clp complex subunits.
-* **Biochemical & Proteolytic Assays:** Real-time fluorogenic peptidase and unfoldase assay setups.
-* **Construct Design & Vectors:** Access our plasmid map database on Addgene.
