@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="people-container">
+  
+  <!-- Current Lab Members Section -->
+  <section class="members-section">
+    <h2>Current Lab Members</h2>
+    <div class="current-members-grid">
+      {{ range .Params.current_members }}
+      <article class="member-card">
+        <div class="member-sidebar">
+          <img 
+            src="{{ "images/people/" | relURL }}{{ .photo }}" 
+            alt="{{ .name }}" 
+            class="member-photo" 
+            onerror="this.src='{{ "images/people/placeholder.jpg" | relURL }}';"
+          />
+          <h3 class="member-name">{{ .name }}</h3>
+        </div>
+        <div class="member-bio">
+          <p>{{ .bio }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Former Lab Members Section -->
+  <section class="members-section">
+    <h2>Former Lab Members</h2>
+
+    {{ range .Params.former_member_groups }}
+    <div class="former-category-group">
+      <h3 class="former-category-title">{{ .category }}</h3>
+      <div class="former-members-list">
+        {{ range .members }}
+        <article class="former-card">
+          <img
+            src="{{ "images/people/" | relURL }}{{ .photo }}"
+            alt="{{ .name }}"
+            class="former-photo"
+            onerror="this.src='{{ "images/people/placeholder.jpg" | relURL }}';"
+          />
+          <div class="former-info">
+            <p class="former-meta"><strong>{{ .name }}</strong> — {{ .details }}</p>
+            <p class="former-current">{{ .current_position }}</p>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </section>
+
+</div>
+{{ end }}

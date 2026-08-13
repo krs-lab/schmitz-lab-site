@@ -1,0 +1,129 @@
+/* ==========================================================================
+   VISUAL MATRIX / LINK BOXES - SCHMITZ LAB
+   ========================================================================== */
+
+/* 1. Global Sizing Variables (Tinker with these values) */
+:root {
+  /* Box Dimensions & Aspect Ratio */
+  --card-max-width: 260px;     /* Desktop max-width per card. Reduce (e.g., 220px) for smaller boxes */
+  --card-min-width: 140px;     /* Minimum card width before wrapping/resizing */
+  --card-aspect-ratio: 4 / 3;  /* Aspect ratio (width / height). Use 1 / 1 for square */
+
+  /* Spacing */
+  --grid-gap: 1.25rem;         /* Gap between cards in both 2x2 and 4x1 layout */
+
+  /* Visual Styling */
+  --card-border-radius: 8px;
+  --card-border-color: #e2e8f0;
+  --card-bg: #ffffff;
+  --card-hover-transform: translateY(-4px);
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --card-hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* 2. Grid Container Setup */
+.matrix-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.matrix-grid {
+  display: grid;
+  gap: var(--grid-gap);
+  justify-content: center; /* Keeps the entire grid centered on the page */
+  align-items: stretch;
+  margin: 0 auto;
+}
+
+/* 3. Responsive Breakpoint Rules */
+
+/* DEFAULT: Mobile & Mobile-Large -> Tight 2x2 Grid */
+.matrix-grid {
+  grid-template-columns: repeat(2, minmax(var(--card-min-width), var(--card-max-width)));
+  max-width: calc((var(--card-max-width) * 2) + var(--grid-gap));
+}
+
+/* DESKTOP (Wide viewports): Switch to 4-in-a-row (4x1) */
+@media (min-width: 900px) {
+  .matrix-grid {
+    grid-template-columns: repeat(4, minmax(var(--card-min-width), var(--card-max-width)));
+    max-width: calc((var(--card-max-width) * 4) + (var(--grid-gap) * 3));
+  }
+}
+
+/* ULTRA-SMALL MOBILE FALLBACK (<340px viewport width) */
+/* Prevents cards from getting squished or overflowing on tiny screens */
+@media (max-width: 339px) {
+  .matrix-grid {
+    grid-template-columns: 1fr;
+    max-width: var(--card-max-width);
+  }
+}
+
+/* 4. Individual Card Styling */
+.matrix-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border-color);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--card-shadow);
+  aspect-ratio: var(--card-aspect-ratio);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.2s ease;
+}
+
+.matrix-card:hover,
+.matrix-card:focus-visible {
+  transform: var(--card-hover-transform);
+  box-shadow: var(--card-hover-shadow);
+  border-color: #00539C; /* UD Blue accent or custom lab accent */
+  outline: none;
+}
+
+/* Card Image Area */
+.matrix-card__image-wrapper {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #f8fafc;
+}
+
+.matrix-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures structural model graphics cover the container cleanly */
+  transition: transform 0.3s ease;
+}
+
+.matrix-card:hover .matrix-card__image {
+  transform: scale(1.04);
+}
+
+/* Card Title/Overlay */
+.matrix-card__footer {
+  padding: 0.75rem 0.5rem;
+  background: #ffffff;
+  border-top: 1px solid #f1f5f9;
+  text-align: center;
+}
+
+.matrix-card__title {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #1e293b;
+  text-transform: uppercase;
+}
