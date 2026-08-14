@@ -8,18 +8,27 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff;
     color: var(--text-color);
 }
 
-// Remove default headers from baseof if necessary, or let index style it cleanly
+// Global container wrapper
 .wix-style-wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
+    box-sizing: border-box;
+
+    @media (max-width: 480px) {
+        padding: 1.25rem 0.2rem; // Maximizes viewport width on narrow devices
+    }
 }
+
+/* ==========================================================================
+   HEADER & STYLIZED LAB BRANDING LOGO
+   ========================================================================== */
 
 .logo-container {
     margin: 0rem auto 1rem auto;
@@ -55,7 +64,7 @@ body {
         white-space: nowrap;   // Keep all letters on one line; font-size shrinks instead
     }
 
-    // 1. Color both the S and L Wix Blue
+    // 1. Color both the S and L Blue
     .blue-letter {
         color: var(--wix-blue);
         font-weight: normal; // 
@@ -91,17 +100,25 @@ body {
     }
 }
 
-// Relocated Watermark Ticker Setup
+/* ==========================================================================
+   BACKGROUND WATERMARK TICKER
+   ========================================================================== */
+
 div.matrix-ticker-container {
     position: relative;
     width: 100%;
     margin-bottom: 1rem;
-    padding: 1.5rem 1.5rem;   // Generates internal padding border spacing around your grid layout
+    padding: 1.0rem 1.5rem;   // Boarder spacing for desktop browsers
     background-color: #f8f8f8; // Soft, off-white/light-gray wallpaper background box
-    // border: 1px solid #eef0f2;
-    border-radius: 5px;
+    border-radius: 3px;
     box-sizing: border-box;
     overflow: hidden;         // Clips any trailing text strings cleanly inside the radius edges
+
+  @media (max-width: 480px) {
+        // Tighten container gutters on mobile to widen card columns
+        padding: 0.75rem 0.1rem;
+
+  }
 }
 
 div.bg-ticker-wrap {
@@ -119,7 +136,7 @@ div.bg-ticker-wrap {
 
 p.bg-ticker {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-size: 0.85rem !important;       // Matches the visual size scale of the background characters
+    font-size: 0.75rem !important;       // Matches the visual size scale of the background characters
     font-weight: normal !important;         // Bold presence to echo the tracking weight
     line-height: 1.2 !important;
     letter-spacing: 0.12em !important;
@@ -141,6 +158,11 @@ p.bg-ticker {
     100% { transform: translate3d(-50%, 0, 0); }
 }
 
+
+/* ==========================================================================
+   VISUAL MATRIX NAVIGATION GRID & CARDS
+   ========================================================================== */
+
 // Horizontal Matrix Grid Layout
 .horizontal-nav-matrix {
     position: relative;
@@ -153,9 +175,9 @@ p.bg-ticker {
     margin: 0 auto;
 
     @media (max-width: 480px) {
-        gap: 3vw;
+        gap: 7px;
         max-width: 100%;
-        padding: 0 0.6rem;
+        padding: 0 0.3rem;
     }
 }
 
@@ -240,20 +262,29 @@ p.bg-ticker {
     padding: 0.15rem 0.15rem;
     text-align: center;
     transition: background 0.2s ease;
-    
+   
+    @media (max-width: 480px) {
+        padding: 0.2rem 1px;  // Maximize lateral printable area
+    }
+
+
     h3 {
         margin: 0;
         // 13% of the card's own width, floor/ceiling keep it sane at extremes.
         // Because this reads the CARD's width (via container-type above) rather
         // than the viewport, it scales correctly no matter how many cards are
         // in a row.
-        font-size: clamp(1.0rem, 11cqw, 1.2rem);
+        font-size: clamp(0.95rem, 11cqw, 1.2rem);
         font-weight: bold;
         color: #00268d; // Dark contrast text matching image overlay
         text-shadow: 0 1px 0 rgba(255,255,255,0.4);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+
+        @media (max-width: 480px) {
+            letter-spacing: -0.01em; // Tighten tracking on narrow mobile viewports
+        }
     }
 }
 
