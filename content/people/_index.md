@@ -6,15 +6,19 @@ current_member_groups:
   - category: "Principal Investigator"
     members:
 
-    - name: "Karl R Schmitz, PhD"
+    - name: "Karl R Schmitz, PhD - schmitzk[at]udel.edu"
       photo: "Schmitz.jpg"
-      bio: "I was an undergrad at RPI, earned my PhD at UPenn with Kathryn Ferguson, and carried out postdoctoral training with Bob Sauer at MIT. I think that biochemistry and structural biology of microbial systems is some of the most exciting science out there. My group at UD uses a broad suite of tools to study proteostasis, stress responses, and antibiotics in mycobacteria."
+      bio: |
+        BS from RPI;
+        PhD with Kate Ferguson at UPenn (now at Yale);
+        Postdoc with Bob Sauer at MIT<br><br>
+        My group at UD uses a broad suite of tools (biochemistry, structural biology, biophysics, cell-based screens, computational biology) to study proteostasis, stress responses, and antibiotics in mycobacteria.
 
   - category: "Graduate Students"
     members:
 
     - name: "Pratistha Kandel, Biological Sciences PhD student"
-      photo: "placeholder.png"
+      photo: "Kandel.jpg"
       bio: "Pratistha's research explores how Mycolicibacterium smegmatis responds to proteotoxic stress. Additionally, she studies the assembly and regulation of Clp proteases in the industrially important microbe Corynebacterium glutamicum."
 
     - name: "Steven Snipes, Biological Sciences PhD student"
@@ -22,11 +26,11 @@ current_member_groups:
       bio: ""
 
     - name: "Abby Richardson, Biological Sciences PhD student"
-      photo: "placeholder.png"
+      photo: "Richardson.jpg"
       bio: ""
 
     - name: "John Buehler, Biochemistry PhD student"
-      photo: "placeholder.png"
+      photo: "Buehler.jpg"
       bio: ""
 
     - name: "Farzaneh Hojjati, Biochemistry PhD student"
@@ -43,8 +47,33 @@ current_member_groups:
 
   - category: "Undergraduate Researchers"
     members:
-    
-    - name: ""
+   
+
+    - name: "Lukas Pike, Biological Sciences"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Tejvir Gill, Biochemistry"
+      photo: ""
+      bio: ""
+
+    - name: "Catherine Mitchell, Medical Laboratory Science"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Malcolm Blenkhorn, Biological Sciences"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Maame Agyeman, Medical Diagnostics"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Kaia Griffin, Biological Sciences"
+      photo: "placeholder.png"
+      bio: ""
+ 
+    - name: "Yuehui Lu, Biological Sciences"
       photo: "placeholder.png"
       bio: ""
 
@@ -54,47 +83,47 @@ former_member_groups:
     members:
 
      - name: "Henry Anderson, PhD"
-       photo: "Anderson.avif"
+       photo: "Anderson.jpg"
        details: "Biochemistry (2020-2025)"
        current_position: "Current position: Postdoc in the Didychuk Lab, Yale University"
 
      - name: "Cady Burnside, PhD"
-       photo: "Burnside.avif"
+       photo: "Burnside.jpg"
        details: "Biochemistry (2020-2025)"
        current_position: "Current position: Validation Engineer at GRAIL"
 
      - name: "Paulinus Nwabia, MS"
-       photo: "placeholder.png"
+       photo: "Nwabia.jpg"
        details: "Biological Sciences (2023-2025)"
        current_position: "Current position: Plasmidsaurus"
 
      - name: "Christopher Presloid, PhD"
-       photo: "placeholder.png"
+       photo: "Presloid.jpg"
        details: "Biological Sciences (2017-2023)"
        current_position: "Current position: Preceptor, Interdiscplinary Science Learning Lab, University of Delaware"
 
      - name: "Monika Prorok, PhD"
-       photo: "placeholder.png"
+       photo: "Prorok.jpg"
        details: "Biochemistry (2017-2023)"
        current_position: "Current position: Scientist at WuXi Biologics"
 
      - name: "Patrick Beardslee, PhD"
-       photo: "placeholder.png"
+       photo: "Beardslee.jpg"
        details: "Biochemistry (2018-2023)"
        current_position: "Current position: Antibody Display Scientist at Mosaic Biosciences"
 
      - name: "Jialiu Jiang, PhD"
-       photo: "placeholder.png"
+       photo: "Jiang.jpg"
        details: "Biochemistry (2017-2022)"
        current_position: "Current position: Senior Scientist at Merck"
 
      - name: "Emmanuel Ogbonna, PhD"
-       photo: "placeholder.png"
+       photo: "Ogbonna.jpg"
        details: "Biological Sciences (2017-2022)"
        current_position: "Current position: Postdoc in the Sorger Lab, Harvard Medical School and the Aldrich Lab, Tufts School of Medicine"
 
      - name: "Gaury Dhamdhere, MS"
-       photo: "placeholder.png"
+       photo: "Dhamdhere.jpg"
        details: "Biological Sciences (2019-2020)"
        current_position: ""
 
@@ -102,7 +131,7 @@ former_member_groups:
     members:
 
      - name: "Neda Dezfuli, PhD"
-       photo: "placeholder.png"
+       photo: "Dezfuli.jpg"
        details: (2025)
        current_position: "Research Scientist, Howard University"
 
@@ -110,7 +139,7 @@ former_member_groups:
     members:
  
      - name: "Skyler Frostrom, Human Physiology BS"
-       photo: "placeholder.png"
+       photo: "Skyler.jpg"
        details: "Undergraduate researcher (2023-2025)"
        current_position: "Current position: Medical Student - Drexel University"
 
@@ -120,7 +149,7 @@ former_member_groups:
        current_position: "Current position: Medical Assistant - Cardiology Consultants of Philadelphia"
 
      - name: "Muheng Li, Biochemistry BS"
-       photo: "placeholder.png"
+       photo: "Muheng.jpg"
        details: "Undergraduate researcher (2022-2024)"
        current_position: "Current position: Food Science and Technology PhD student, Virginia Tech"
 
@@ -135,7 +164,7 @@ former_member_groups:
        current_position: "Current position: "
 
      - name: "Henry Waruiru, Biological Sciences BS)"
-       photo: "placeholder.png"
+       photo: "Waruiru.jpg"
        details: "Undergraduate researcher (2020-2021)"
        current_position: "Current position: Philadelphia college of Osteopathic Medicine"
 
@@ -155,7 +184,7 @@ former_member_groups:
        current_position: "Current position: MD at ChristianaCare"
 
      - name: "Jeffrey Hudson"
-       photo: "placeholder.png"
+       photo: "Hudson.jpg"
        details: "Undergraduate researcher (2018-2020)"
        current_position: "Current position: Associate Scientist - Merck"
 
@@ -165,7 +194,7 @@ former_member_groups:
        current_position: "Current position: Veterinarian"
 
      - name: "Jennifer Vorn, Medical Diagnostics BS"
-       photo: "placeholder.png"
+       photo: "Vorn.jpg"
        details: "Undergraduate researcher (2018–2020)"
        current_position: "Current position: Clinical Care Tech - Tufts Medical Center"
 

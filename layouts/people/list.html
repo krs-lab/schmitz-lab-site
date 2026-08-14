@@ -18,7 +18,7 @@
             onerror="this.src='{{ "images/people/placeholder.png" | relURL }}';"
           />
           <div class="member-bio">
-            <p>{{ .bio }}</p>
+            <p>{{ .bio | markdownify }}</p>
           </div>
           <h4 class="member-name">{{ .name }}</h4>
         </article>
