@@ -237,7 +237,7 @@ p.bg-ticker {
 .wix-card-title-bar {
     background: linear-gradient(to bottom, var(--wix-gold) 0%, #e6b800 100%);
     border-top: 2px solid var(--border-blue);
-    padding: 0.35rem 0.15rem;
+    padding: 0.15rem 0.15rem;
     text-align: center;
     transition: background 0.2s ease;
     
@@ -247,7 +247,7 @@ p.bg-ticker {
         // Because this reads the CARD's width (via container-type above) rather
         // than the viewport, it scales correctly no matter how many cards are
         // in a row.
-        font-size: clamp(0.55rem, 13cqw, 1.2rem);
+        font-size: clamp(1.0rem, 11cqw, 1.2rem);
         font-weight: bold;
         color: #00268d; // Dark contrast text matching image overlay
         text-shadow: 0 1px 0 rgba(255,255,255,0.4);
@@ -262,7 +262,7 @@ p.bg-ticker {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     max-width: 850px;
     margin: 0 auto;
-    font-size: 1.05rem;
+    font-size: 0.85rem;
     line-height: 1.5;
     text-align: left; // Standard clean reading block alignment
     color: #444444;
@@ -278,7 +278,7 @@ p.bg-ticker {
 
 .main-content-body {
     max-width: 980px;         // Aligns with the maximum width profile of the navigation matrix
-    margin: 1.0rem auto 1.0rem auto;
+    margin: 0.25rem auto 1.0rem auto;
     padding: 0 0.5rem;
     box-sizing: border-box;
 
@@ -287,7 +287,7 @@ p.bg-ticker {
         text-justify: inter-word; // Distributes word spacing evenly along lines
         line-height: 1.25;
         color: #333333;
-        font-size: 1.05rem;
+        font-size: 0.95rem;
         margin-bottom: 1.5rem;
     }
 
@@ -462,7 +462,7 @@ p.bg-ticker {
     text-align: center;
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.0rem;
     color: #666666;
 
     a {
@@ -481,7 +481,7 @@ p.bg-ticker {
     text-align: center;
     color: var(--wix-blue, #00539b);
     font-size: 1.15rem;
-    margin-top: 2.0rem;
+    margin-top: 1.0rem;
     margin-bottom: 1.25rem;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 0.35rem;
@@ -512,6 +512,30 @@ p.bg-ticker {
     margin-bottom: 0rem;
     padding-bottom: 0rem;
   }
+
+  h4 {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+
+/* --- Shared Category Subheadings --- */
+
+.member-category-group {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.category-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0369a1; /* Primary brand accent color */
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.2rem;
 }
 
 /* --- Current Members Grid (2 Columns) --- */
@@ -528,41 +552,45 @@ p.bg-ticker {
   }
 }
 
-.member-card {
+.member-card {  /* --- Individual Member Card layout --- */
   background-color: #f8fafc; /* Light gray background */
   border: 1px solid #e2e8f0;
   border-radius: 3px;
   padding: 0.5rem;
-  display: flex;
-  gap: 0.5rem;
-  align-items: flex-start;
-}
 
-.member-sidebar {
-  flex: 0 0 140px; /* Fixed column width for photo + name */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  /* ---  Internal 2-Row layout --- */
+  display: grid;
+  grid-template-columns: 140px 1fr; /* Fixed 140px photo width, flexible bio area */
+  grid-template-rows: auto auto;   /* Row 1: Image & Bio; Row 2: Name */
+  grid-template-areas:
+    "photo bio"
+    "name  name";
+  column-gap: 0.5rem;
+  row-gap: 0.25rem;
+  align-items: start;
 }
 
 .member-photo {
+  grid-area: photo;
   width: 140px;
   height: 140px;
   object-fit: cover; /* Ensures non-square images crop cleanly without distortion */
   border-radius: 3px;
   background-color: #cbd5e1;
+  display: block;
 }
 
 .member-name {
+  grid-area: name;
   font-size: 0.85rem;
   font-weight: 700;
   color: #0284c7; /* Primary blue heading color */
-  line-height: 1.25;
+  line-height: 1.0;
   text-align: left;
-
+  margin-bottom: 0rem;
   /* Reset browser default heading margins & padding */
-  margin: 0.35rem 0 0 0; /* Tight top spacing from photo; zero bottom margin */
-  padding: 0;            /* Ensures no internal padding creates orange box */
+  margin: 0rem 0rem 0rem 0rem; /* Tight top spacing from photo; zero bottom margin */
+  padding: 0rem;            /* Ensures no internal padding creates orange box */
 
 }
 
