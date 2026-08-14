@@ -62,7 +62,7 @@ current_member_groups:
       bio: ""
 
     - name: "Malcolm Blenkhorn, Biological Sciences"
-      photo: "placeholder.png"
+      photo: "Blenkhorn.jpg"
       bio: ""
 
     - name: "Maame Agyeman, Medical Diagnostics"
