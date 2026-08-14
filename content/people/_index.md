@@ -1,38 +1,52 @@
 ---
-title: "Publications"
+title: "People"
 draft: false
-current_members:
-  - name: "Karl R Schmitz, PhD"
-    photo: "Schmitz.jpg"
-    bio: "I was an undergrad at RPI, earned my PhD at UPenn with Kathryn Ferguson, and did postdoctoral studies with Bob Sauer at MIT. I think that biochemistry and structural biology of microbial systems is some of the most exciting science out there. My group at UD uses a broad suite of tools to study proteostasis, stress responses, and antibiotics in mycobacteria."
 
-  - name: "Pratistha Kandel, Biological Sciences PhD student"
-    photo: "placeholder.png"
-    bio: "Pratistha's research explores how Mycolicibacterium smegmatis responds to proteotoxic stress. Additionally, she studies the assembly and regulation of Clp proteases in the industrially important microbe Corynebacterium glutamicum."
+current_member_groups:
+  - category: "Principal Investigator"
+    members:
 
-  - name: "Steven Snipes, Biological Sciences PhD student"
-    photo: "placeholder.png"
-    bio: ""
+    - name: "Karl R Schmitz, PhD"
+      photo: "Schmitz.jpg"
+      bio: "I was an undergrad at RPI, earned my PhD at UPenn with Kathryn Ferguson, and carried out postdoctoral training with Bob Sauer at MIT. I think that biochemistry and structural biology of microbial systems is some of the most exciting science out there. My group at UD uses a broad suite of tools to study proteostasis, stress responses, and antibiotics in mycobacteria."
 
-  - name: "Abby Richardson, Biological Sciences PhD student"
-    photo: "placeholder.png"
-    bio: ""
+  - category: "Graduate Students"
+    members:
 
-  - name: "John Buehler, Biochemistry PhD student"
-    photo: "placeholder.png"
-    bio: ""
+    - name: "Pratistha Kandel, Biological Sciences PhD student"
+      photo: "placeholder.png"
+      bio: "Pratistha's research explores how Mycolicibacterium smegmatis responds to proteotoxic stress. Additionally, she studies the assembly and regulation of Clp proteases in the industrially important microbe Corynebacterium glutamicum."
 
-  - name: "Farzaneh Hojjati, Biochemistry PhD student"
-    photo: "placeholder.png"
-    bio: ""
+    - name: "Steven Snipes, Biological Sciences PhD student"
+      photo: "placeholder.png"
+      bio: ""
 
-  - name: "Alexzandria Sheppard, Biochemistry PhD student"
-    photo: "placeholder.png"
-    bio: ""
+    - name: "Abby Richardson, Biological Sciences PhD student"
+      photo: "placeholder.png"
+      bio: ""
 
-  - name: "Visnu Chowdhury, Bioinformatics Data Science MS student"
-    photo: "placeholder.png"
-    bio: ""
+    - name: "John Buehler, Biochemistry PhD student"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Farzaneh Hojjati, Biochemistry PhD student"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Alexzandria Sheppard, Biochemistry PhD student"
+      photo: "placeholder.png"
+      bio: ""
+
+    - name: "Visnu Chowdhury, Bioinformatics Data Science MS student"
+      photo: "Visnu.jpg"
+      bio: ""
+
+  - category: "Undergraduate Researchers"
+    members:
+    
+    - name: ""
+      photo: "placeholder.png"
+      bio: ""
 
 former_member_groups:
 
