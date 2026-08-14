@@ -19,10 +19,10 @@ current_member_groups:
 
     - name: "Pratistha Kandel, Biological Sciences PhD student"
       photo: "Kandel.jpg"
-      bio: "Pratistha's research explores how Mycolicibacterium smegmatis responds to proteotoxic stress. Additionally, she studies the assembly and regulation of Clp proteases in the industrially important microbe Corynebacterium glutamicum."
+      bio: "Pratistha's research explores how *Mycolicibacterium smegmatis*, a model for the major human pathogen *Mycobacterium tuberculosis*, responds to proteotoxic stress. She also studies the assembly and regulation of Clp proteases in the industrially important microbe *Corynebacterium glutamicum*."
 
     - name: "Steven Snipes, Biological Sciences PhD student"
-      photo: "placeholder.png"
+      photo: "Snipes.png"
       bio: ""
 
     - name: "Abby Richardson, Biological Sciences PhD student"
@@ -43,7 +43,7 @@ current_member_groups:
 
     - name: "Visnu Chowdhury, Bioinformatics Data Science MS student"
       photo: "Visnu.jpg"
-      bio: ""
+      bio: "Visnu is working on improving computational methods to predict functional classes of *Legionella* effectors, paired with bench validation to test those predictions - combining his clinical, basic biological, and computational background to advance mechanistic understanding of host-pathogen interactions."
 
   - category: "Undergraduate Researchers"
     members:
