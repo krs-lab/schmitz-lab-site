@@ -5,29 +5,37 @@
     <a href="https://scholar.google.com/citations?user=A_6Fxi0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
 </div>
 
+<h3 class="pub-section-heading">Schmitz Lab Publications</h3>
+
+<p style="text-align: center; font-size: 0.95rem; margin-bottom: 1.5rem;">
+  <span style="color: #AA00C3;">PI</span> | 
+  <span style="color: #c65d07;">KRS Lab Grad Student</span> | 
+  <span style="color: #007a78;">KRS Lab Undergrad</span>
+</p>
+
 <ul class="publications-list">
    <li>
-   Fei F, Burnside CM, Lun S, Wee D, Kaur M, Anderson HR, McCarroll MN, Richardson AE, Neglia SE, Liu H, Wang X, Gupta S, Rhee KY, Wright GD, Bryson BD, Oehlers SH, Bishai WR, <strong>Schmitz KR</strong>, Sello JK. Structural and mechanistric studies of ADEPs yield a potent antibacterials and a drug formulation strategy for tuberculosis. J Med Chem. 2026. <i>in press</i>
+Fei F, <span class="author-grad">Burnside CM</span>, Lun S, Wee D, Kaur M,  <span class="author-grad">Anderson HR</span>, McCarroll MN,  <span class="author-grad">Richardson AE</span>, <span class="author-grad">Neglia SE</span>, Liu H, Wang X, Gupta S, Rhee KY, Wright GD, Bryson BD, Oehlers SH, Bishai WR, <strong>Schmitz KR</strong>, Sello JK. Structural and mechanistric studies of ADEPs yield a potent antibacterials and a drug formulation strategy for tuberculosis. <em>J Med Chem</em>. 2026. <i>in press</i>
    </li>
    <li>
-   Kandel P, Beardslee PC, <strong>Schmitz KR</strong>. <a href="https://link.springer.com/protocol/10.1007/978-1-0716-5508-5_17">Assessment of Bacterial N-Degron Proteolysis by a Dual-Fluorescence Reporter</a>. Methods Mol Biol. 2026;3069:233-245. doi: 10.1007/978-1-0716-5508-5_17. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42573702/">42573702</a>.
+<span class="author-grad">Kandel P</span>,  <span class="author-grad">Beardslee PC</span>, <strong>Schmitz KR</strong>. <a href="https://link.springer.com/protocol/10.1007/978-1-0716-5508-5_17">Assessment of Bacterial N-Degron Proteolysis by a Dual-Fluorescence Reporter</a>. <em>Methods Mol Biol</em>. 2026;3069:233-245. doi: 10.1007/978-1-0716-5508-5_17. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42573702/">42573702</a>.
    </li>
    <li>
-   Anderson HR, Kandel P, Ogbonna EC, <strong>Schmitz KR</strong>. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">Phosphoarginine modulates oligomerization and repressor activity of mycobacterial ClpC2</a>. <em>bioRxiv</em> [Preprint]. 2026 Jul 1:2026.06.30.735635. doi: 10.64898/2026.06.30.735635. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42427542/" target="_blank" rel="noopener">42427542</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13345244/" target="_blank" rel="noopener">PMC13345244</a>.
+    <span class="author-grad">Anderson HR</span>,  <span class="author-grad">Kandel P</span>,  <span class="author-grad">Ogbonna EC</span>, <strong>Schmitz KR</strong>. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">Phosphoarginine modulates oligomerization and repressor activity of mycobacterial ClpC2</a>. <em>bioRxiv</em> [Preprint]. 2026 Jul 1:2026.06.30.735635. doi: 10.64898/2026.06.30.735635. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42427542/" target="_blank" rel="noopener">42427542</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13345244/" target="_blank" rel="noopener">PMC13345244</a>.
    </li>
    <li>
    Das K, Dzurik KG, Singh Y, Yu Y, <strong>Schmitz KR</strong>, Schrader JM, Childers WS, Bird JG. <a href="https://www.biorxiv.org/content/10.64898/2026.06.30.735635v1" target="_blank" rel="noopener">The <i>E. coli</i> DEAD box ATPase CsdA is a NAD+ capped RNA binding protein</a>. <em>bioRxiv</em> [Preprint]. 2026 Jun 4:2026.06.03.730015. doi: 10.64898/2026.06.03.730015. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42282715/" target="_blank" rel="noopener">42282715</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13252401/" target="_blank" rel="noopener">PMC13252401</a>.
    </li>
    <li>
-   Bolt AE, Richardson AE, Pike CM, Noll RR, Yu Y, Neunuebel JP, Le Marchand S, <strong>Schmitz KR</strong>, Neunuebel MR. <a href="https://journals.asm.org/doi/10.1128/spectrum.03824-25" target="_blank" rel="noopener">Systematic discovery of novel phosphoinositide-binding effectors in <i>Legionella</i> reveals conserved ɑ-helical folds</a>. <em>Microbiol Spectr</em>. 2026 Aug 4;14(8):e0382425. doi: 10.1128/spectrum.03824-25. Epub 2026 Jun 30. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42379826/" target="_blank" rel="noopener">42379826</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13435680/">PMC13435680</a>.
+   Bolt AE,  <span class="author-grad">Richardson AE</span>, Pike CM, Noll RR, Yu Y, Neunuebel JP, Le Marchand S, <strong>Schmitz KR</strong>, Neunuebel MR. <a href="https://journals.asm.org/doi/10.1128/spectrum.03824-25" target="_blank" rel="noopener">Systematic discovery of novel phosphoinositide-binding effectors in <i>Legionella</i> reveals conserved ɑ-helical folds</a>. <em>Microbiol Spectr</em>. 2026 Aug 4;14(8):e0382425. doi: 10.1128/spectrum.03824-25. Epub 2026 Jun 30. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42379826/" target="_blank" rel="noopener">42379826</a>; PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13435680/">PMC13435680</a>.
    </li>
    <li>
-   Presloid CJ*, Jiang J*, Kandel P, Anderson HR, Beardslee PC, Swayne TM, <strong>Schmitz KR</strong>. 
+    <span class="author-grad">Presloid CJ</span>*,  <span class="author-grad">Jiang J</span>*,  <span class="author-grad">Kandel P</span>,  <span class="author-grad">Anderson HR</span>,  <span class="author-grad">Beardslee PC</span>, <span class="author-undergrad">Swayne TM</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://onlinelibrary.wiley.com/doi/10.1111/mmi.15334" target="_blank" rel="noopener">ClpS directs degradation of primary N-end rule substrates in <i>Mycolicibacterium smegmatis</i></a>. 
 	<em>Mol Microbiol</em>. 2025 Jan;123(1):16-30. doi: 10.1111/mmi.15334. Epub 2024 Dec 3. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39626090/" target="_blank" rel="noopener">39626090</a>; PubMed Central PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11717620/" target="_blank" rel="noopener">PMC11717620</a>. <em>*equal contribution</em>
    </li>
    <li>
-	Beardslee PC, <strong>Schmitz KR</strong>. 
+	 <span class="author-grad">Beardslee PC</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://elifesciences.org/reviewed-preprints/98528" target="_blank" rel="noopener">Toxin-based screening of C-terminal tags in <i>Escherichia coli</i> reveals the exceptional potency of ssrA-like degrons</a>. 
 	<em>eLife</em>. 2024 June 14. doi: 10.7554/eLife.98528.1.sa3. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38352471/" target="_blank" rel="noopener">38352471</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10862746/" target="_blank" rel="noopener">PMC10862746</a>.
     </li>
@@ -37,7 +45,7 @@
 	<em>Nat Commun</em>. 2024 Apr 26;15(1):3301. doi: 10.1038/s41467-024-47670-1. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38671004/" target="_blank" rel="noopener">38671004</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11053169/" target="_blank" rel="noopener">PMC11053169</a>.
     </li>
     <li>
-	Ogbonna EC, Anderson HR, Beardslee PC, Bheemreddy P, <strong>Schmitz KR</strong>. 
+	 <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Anderson HR</span>,  <span class="author-grad">Beardslee PC</span>,  <span class="author-undergrad">Bheemreddy P</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://journals.asm.org/doi/full/10.1128/spectrum.04548-22" target="_blank" rel="noopener">Interactome Analysis Identifies MSMEI_3879 as a Substrate of <i>Mycolicibacterium smegmatis</i> ClpC1</a>. 
 	<em>Microbiol Spectr</em>. 2023 Aug 17;11(4):e0454822. doi: 10.1128/spectrum.04548-22. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37341639/" target="_blank" rel="noopener">37341639</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10433963/" target="_blank" rel="noopener">PMC10433963</a>.
     </li>
@@ -47,17 +55,17 @@
 	<em>ACS Chem Biol</em>. 2023 Apr 21;18(4):724-733. doi: 10.1021/acschembio.9b00454. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32083462/" target="_blank" rel="noopener">32083462</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7842861/" target="_blank" rel="noopener">PMC7842861</a>. <em>*co-corresponding authors</em>
     </li>
     <li>
-	Jiang J, <strong>Schmitz KR</strong>. 
+	 <span class="author-grad">Jiang J</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1161764/full" target="_blank" rel="noopener">Bioinformatic identification of ClpI, a distinct class of Clp unfoldases in Actinomycetota</a>. 
 	<em>Front Microbiol</em>. 2023;14:1161764. doi: 10.3389/fmicb.2023.1161764. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37138635/" target="_blank" rel="noopener">37138635</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10149685/" target="_blank" rel="noopener">PMC10149685</a>.
     </li>
     <li>
-	Ogbonna EC, Anderson HR, <strong>Schmitz KR</strong>. 
+	 <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Anderson HR</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://journals.asm.org/doi/full/10.1128/spectrum.02042-22" target="_blank" rel="noopener">Identification of Arginine Phosphorylation in <i>Mycolicibacterium smegmatis</i></a>. 
 	<em>Microbiol Spectr</em>. 2022 Oct 26;10(5):e0204222. doi: 10.1128/spectrum.02042-22. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36214676/" target="_blank" rel="noopener">36214676</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9604228/" target="_blank" rel="noopener">PMC9604228</a>.
     </li>
     <li>
-        Beardslee PC, Dhamdhere G, Jiang J, Ogbonna EC, Presloid CJ, Prorok M, Bheemreddy P, Sullivan CD, Vorn JC, <strong>Schmitz KR</strong>. 
+         <span class="author-grad">Beardslee PC</span>,  <span class="author-grad">Dhamdhere G</span>,  <span class="author-grad">Jiang J</span>,  <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Presloid CJ</span>,  <span class="author-grad">Prorok M</span>,  <span class="author-undergrad">Bheemreddy P</span>,  <span class="author-undergrad">Sullivan CD</span>,  <span class="author-undergrad">Vorn JC</span>, <strong>Schmitz KR</strong>. 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/B9780128194607001560" target="_blank" rel="noopener">Enzymes | Clp Proteases</a>. 
         In: <em>Encyclopedia of Biological Chemistry III</em>, Elsevier; 2021. pp. 292–306.
     </li>

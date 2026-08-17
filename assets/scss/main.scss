@@ -1,9 +1,13 @@
 :root {
     --wix-blue: #00539b;
     --wix-gold: #ffcc00; // Sharp yellow-gold title bar
-    --text-color: #555555;
+    --text-color: #FFFFFF;
     --border-blue: #2b70af;
+    --author-pi: #AA00C3;        // PI Accent (Purple)
+    --author-grad: #c65d07;      // KRS Lab Graduate Students (Dark Orange)
+    --author-undergrad: #007979; // KRS Lab Undergraduates (Dark Teal)
 }
+
 
 body {
     margin: 0;
@@ -367,7 +371,7 @@ p.bg-ticker {
 		text-align: left;
 		font-size: 0.92rem;        // Smaller font size for dense publication rendering
 		line-height: 1.2;         // Compact yet readable line height
-		color: #555555;
+		color: #222222;
 		margin-bottom: 0.5rem;    // Clear separation between entries
 		padding-bottom: 0.5rem;
 
@@ -376,6 +380,18 @@ p.bg-ticker {
 		    color: #AA00C3;         // Purple accent matching original design
 		    font-weight: normal;
 		}
+
+                /* KRS Lab Graduate Student Highlight */
+                .author-grad {
+                    color: var(--author-grad);
+                    font-weight: normal;
+                }
+
+                /* KRS Lab Undergraduate Highlight */
+                .author-undergrad {
+                    color: var(--author-undergrad);
+                    font-weight: normal;
+                }
 
 		/* Article Title Links */
 		a {
