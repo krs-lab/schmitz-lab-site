@@ -5,6 +5,92 @@
     <a href="https://scholar.google.com/citations?user=A_6Fxi0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
 </div>
 
+<div class="research-arc" role="img" aria-label="Timeline of the lab's five research threads from 2005 to 2026, spaced one year apart — scroll horizontally to see the full range">
+<div class="arc-wrap">
+<div class="arc">
+<div class="arc-row">
+<div class="arc-label">RTK / EGFR structural biology <span class="arc-era">(PhD)</span></div>
+<div class="arc-track">
+<span class="arc-dot rtk" style="left:12.5px" title="Cancer Cell, 2005"></span>
+<span class="arc-dot rtk" style="left:162.5px" title="Dev Cell, 2008"></span>
+<span class="arc-dot rtk" style="left:195.8px" title="Structure, 2008"></span>
+<span class="arc-dot rtk" style="left:204.2px" title="Exp Cell Res, 2009"></span>
+<span class="arc-dot rtk" style="left:245.8px" title="J Cell Biol, 2009"></span>
+<span class="arc-dot rtk" style="left:295.8px" title="Cell, 2010"></span>
+<span class="arc-dot rtk" style="left:425.0px" title="Structure, 2013"></span>
+<span class="arc-dot rtk" style="left:504.2px" title="Structure, 2015"></span>
+</div>
+</div>
+<div class="arc-row">
+<div class="arc-label">AAA+ protease mechanism (ClpXP) <span class="arc-era">(Postdoc)</span></div>
+<div class="arc-track">
+<span class="arc-dot clpxp" style="left:412.5px" title="Cell, 2013"></span>
+<span class="arc-dot clpxp" style="left:475.0px" title="Cell, 2014"></span>
+<span class="arc-dot clpxp" style="left:487.5px" title="PNAS, 2014"></span>
+<span class="arc-dot clpxp" style="left:479.2px" title="Mol Microbiol, 2014"></span>
+<span class="arc-dot clpxp" style="left:516.7px" title="Nat Struct Mol Biol, 2015"></span>
+<span class="arc-dot clpxp" style="left:570.8px" title="ACS Chem Biol, 2016"></span>
+<span class="arc-dot clpxp" style="left:712.5px" title="Protein Sci, 2019"></span>
+</div>
+</div>
+<div class="arc-row">
+<div class="arc-label">Antibacterial ADEPs</div>
+<div class="arc-track">
+<span class="arc-dot adep" style="left:445.8px" title="ACS Chem Biol, 2013"></span>
+<span class="arc-dot adep" style="left:454.2px" title="JACS, 2014"></span>
+<span class="arc-dot adep" style="left:487.5px" title="Chembiochem, 2014"></span>
+<span class="arc-dot adep" style="left:533.3px" title="Chembiochem, 2015"></span>
+<span class="arc-dot adep" style="left:912.5px" title="ACS Chem Biol, 2023"></span>
+<span class="arc-dot adep" style="left:1079.2px" title="J Med Chem, 2026 (in press)"></span>
+</div>
+</div>
+<div class="arc-row">
+<div class="arc-label">Mycobacterial proteostasis &amp; N-degron pathway <span class="arc-era">(PI)</span></div>
+<div class="arc-track">
+<span class="arc-dot ndegron" style="left:820.8px" title="Encyclopedia of Biological Chemistry III, 2021"></span>
+<span class="arc-dot ndegron" style="left:887.5px" title="Microbiol Spectr, 2022"></span>
+<span class="arc-dot ndegron" style="left:916.7px" title="Front Microbiol, 2023"></span>
+<span class="arc-dot ndegron" style="left:929.2px" title="Microbiol Spectr, 2023"></span>
+<span class="arc-dot ndegron" style="left:970.8px" title="eLife, 2024"></span>
+<span class="arc-dot ndegron" style="left:1000.0px" title="Mol Microbiol, 2025"></span>
+<span class="arc-dot ndegron" style="left:1072.1px" title="Methods Mol Biol, 2026"></span>
+<span class="arc-dot ndegron" style="left:1075.0px" title="bioRxiv preprint, 2026"></span>
+</div>
+</div>
+<div class="arc-row">
+<div class="arc-label"><i>Legionella</i> effectors <span class="arc-era">(PI)</span></div>
+<div class="arc-track">
+<span class="arc-dot legionella" style="left:1079.2px" title="Microbiol Spectr, 2026"></span>
+</div>
+</div>
+<div class="arc-years">
+<span class="arc-year-tick" style="left:0px">2005</span>
+<span class="arc-year-tick" style="left:50px">2006</span>
+<span class="arc-year-tick" style="left:100px">2007</span>
+<span class="arc-year-tick" style="left:150px">2008</span>
+<span class="arc-year-tick" style="left:200px">2009</span>
+<span class="arc-year-tick" style="left:250px">2010</span>
+<span class="arc-year-tick" style="left:300px">2011</span>
+<span class="arc-year-tick" style="left:350px">2012</span>
+<span class="arc-year-tick" style="left:400px">2013</span>
+<span class="arc-year-tick" style="left:450px">2014</span>
+<span class="arc-year-tick" style="left:500px">2015</span>
+<span class="arc-year-tick" style="left:550px">2016</span>
+<span class="arc-year-tick" style="left:600px">2017</span>
+<span class="arc-year-tick" style="left:650px">2018</span>
+<span class="arc-year-tick" style="left:700px">2019</span>
+<span class="arc-year-tick" style="left:750px">2020</span>
+<span class="arc-year-tick" style="left:800px">2021</span>
+<span class="arc-year-tick" style="left:850px">2022</span>
+<span class="arc-year-tick" style="left:900px">2023</span>
+<span class="arc-year-tick" style="left:950px">2024</span>
+<span class="arc-year-tick" style="left:1000px">2025</span>
+<span class="arc-year-tick" style="left:1050px">2026</span>
+</div>
+</div>
+</div>
+</div>
+
 <h3 class="pub-section-heading">Schmitz Lab Publications</h3>
 
 <p style="text-align: center; font-size: 0.95rem; margin-bottom: 1.5rem;">
@@ -38,32 +124,32 @@ Fei F, <span class="author-grad">Burnside CM</span>, Lun S, Wee D, Kaur M,  <spa
 	 <span class="author-grad">Beardslee PC</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://elifesciences.org/reviewed-preprints/98528" target="_blank" rel="noopener">Toxin-based screening of C-terminal tags in <i>Escherichia coli</i> reveals the exceptional potency of ssrA-like degrons</a>. 
 	<em>eLife</em>. 2024 June 14. doi: 10.7554/eLife.98528.1.sa3. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38352471/" target="_blank" rel="noopener">38352471</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10862746/" target="_blank" rel="noopener">PMC10862746</a>.
-    </li>
+   </li>
     <li>
 	Shi Y, Huang D, Song C, Cao R, Wang Z, Wang D, Zhao L, Xu X, Lu C, Xiong F, Zhao H, Li S, Zhou Q, Luo S, Hu D, Zhang Y, Wang C, Shen Y, Su W, Wu Y, <strong>Schmitz KR</strong>, Wei S, Song W. 
 	<a href="https://www.nature.com/articles/s41467-024-47670-1" target="_blank" rel="noopener">Diphthamide deficiency promotes association of eEF2 with p53 to induce p21 expression and neural crest defects</a>. 
 	<em>Nat Commun</em>. 2024 Apr 26;15(1):3301. doi: 10.1038/s41467-024-47670-1. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38671004/" target="_blank" rel="noopener">38671004</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11053169/" target="_blank" rel="noopener">PMC11053169</a>.
-    </li>
+   </li>
     <li>
 	 <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Anderson HR</span>,  <span class="author-grad">Beardslee PC</span>,  <span class="author-undergrad">Bheemreddy P</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://journals.asm.org/doi/full/10.1128/spectrum.04548-22" target="_blank" rel="noopener">Interactome Analysis Identifies MSMEI_3879 as a Substrate of <i>Mycolicibacterium smegmatis</i> ClpC1</a>. 
 	<em>Microbiol Spectr</em>. 2023 Aug 17;11(4):e0454822. doi: 10.1128/spectrum.04548-22. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37341639/" target="_blank" rel="noopener">37341639</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10433963/" target="_blank" rel="noopener">PMC10433963</a>.
-    </li>
+   </li>
     <li>
 	<strong>Schmitz KR*</strong>, Handy EL, Compton CL, Gupta S, Bishai WR, Sauer RT, Sello JK*. 
 	<a href="https://pubs.acs.org/doi/10.1021/acschembio.9b00454" target="_blank" rel="noopener">Acyldepsipeptide Antibiotics and a Bioactive Fragment Thereof Differentially Perturb <i>Mycobacterium tuberculosis</i> ClpXP1P2 Activity <i>in vitro</i></a>. 
 	<em>ACS Chem Biol</em>. 2023 Apr 21;18(4):724-733. doi: 10.1021/acschembio.9b00454. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32083462/" target="_blank" rel="noopener">32083462</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7842861/" target="_blank" rel="noopener">PMC7842861</a>. <em>*co-corresponding authors</em>
-    </li>
+   </li>
     <li>
 	 <span class="author-grad">Jiang J</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1161764/full" target="_blank" rel="noopener">Bioinformatic identification of ClpI, a distinct class of Clp unfoldases in Actinomycetota</a>. 
 	<em>Front Microbiol</em>. 2023;14:1161764. doi: 10.3389/fmicb.2023.1161764. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37138635/" target="_blank" rel="noopener">37138635</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10149685/" target="_blank" rel="noopener">PMC10149685</a>.
-    </li>
+   </li>
     <li>
 	 <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Anderson HR</span>, <strong>Schmitz KR</strong>. 
 	<a href="https://journals.asm.org/doi/full/10.1128/spectrum.02042-22" target="_blank" rel="noopener">Identification of Arginine Phosphorylation in <i>Mycolicibacterium smegmatis</i></a>. 
 	<em>Microbiol Spectr</em>. 2022 Oct 26;10(5):e0204222. doi: 10.1128/spectrum.02042-22. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36214676/" target="_blank" rel="noopener">36214676</a>; PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9604228/" target="_blank" rel="noopener">PMC9604228</a>.
-    </li>
+   </li>
     <li>
          <span class="author-grad">Beardslee PC</span>,  <span class="author-grad">Dhamdhere G</span>,  <span class="author-grad">Jiang J</span>,  <span class="author-grad">Ogbonna EC</span>,  <span class="author-grad">Presloid CJ</span>,  <span class="author-grad">Prorok M</span>,  <span class="author-undergrad">Bheemreddy P</span>,  <span class="author-undergrad">Sullivan CD</span>,  <span class="author-undergrad">Vorn JC</span>, <strong>Schmitz KR</strong>. 
         <a href="https://linkinghub.elsevier.com/retrieve/pii/B9780128194607001560" target="_blank" rel="noopener">Enzymes | Clp Proteases</a>. 
@@ -188,3 +274,4 @@ Fei F, <span class="author-grad">Burnside CM</span>, Lun S, Wee D, Kaur M,  <spa
         <em>Mol Vis</em>. 2007 Sep 19;13:1758-68. PubMed PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/17960114/" target="_blank" rel="noopener">17960114</a>.
     </li>
 </ul>
+

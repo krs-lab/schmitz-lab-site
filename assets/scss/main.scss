@@ -6,6 +6,13 @@
     --author-pi: #AA00C3;        // PI Accent (Purple)
     --author-grad: #c65d07;      // KRS Lab Graduate Students (Dark Orange)
     --author-undergrad: #007979; // KRS Lab Undergraduates (Dark Teal)
+
+    // Research Arc timeline thread colors (deliberately distinct from author-role colors above)
+    --arc-rtk: #6b4c9a;        // RTK / EGFR structural biology
+    --arc-clpxp: #1f6f8b;      // AAA+ protease mechanism (ClpXP)
+    --arc-adep: #b23a48;       // Antibacterial ADEPs
+    --arc-ndegron: #2f8f46;    // Mycobacterial proteostasis / N-degron pathway
+    --arc-legionella: #e0a100; // Legionella effectors
 }
 
 
@@ -716,4 +723,109 @@ p.bg-ticker {
     color: #64748b;
     font-size: 0.85rem;
   }
+}
+
+/* ==========================================================================
+   RESEARCH ARC — timeline of the lab's major research threads
+   ========================================================================== */
+.research-arc {
+    // Single source of truth for the timeline's geometry. 50px = one
+    // calendar year; 2005–2026 is 21 years, plus one year of trailing
+    // padding so the last dot isn't flush against the scroll edge.
+    // Every .arc-dot / .arc-year-tick position in the markup is a plain
+    // "left:Npx" computed from this same scale — deliberately NOT done
+    // with JS, since inline <script> in the page content is not reliably
+    // executed by this site, and CSS/inline-style positioning always works.
+    $arc-label-width: 190px;
+    $arc-row-gap: 0.75rem;
+    $arc-track-width: 1100px; // (2026 - 2005 + 1) * 50px
+
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    padding: 1.25rem 1rem 0.75rem 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    background: #fafafa;
+
+    // Everything (row labels + tracks + year ruler) lives inside .arc and
+    // scrolls together — matches the Idea 7 mockup's arc-wrap/.arc behavior,
+    // just widened out to a real 1-year-per-fixed-px scale instead of being
+    // squeezed to fit.
+    .arc-wrap {
+        overflow-x: auto;
+        padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .arc {
+        position: relative;
+    }
+
+    .arc-row {
+        display: flex;
+        align-items: center;
+        gap: $arc-row-gap;
+        margin-bottom: 0.65rem;
+        white-space: nowrap;
+    }
+
+    .arc-label {
+        flex: 0 0 #{$arc-label-width};
+        width: $arc-label-width;
+        font-size: 0.78rem;
+        color: #333333;
+        line-height: 1.2;
+        text-align: right; // Row titles sit flush against where the track starts
+        white-space: normal;
+
+        .arc-era {
+            color: #888888;
+            font-size: 0.72rem;
+        }
+    }
+
+    .arc-track {
+        position: relative;
+        flex-shrink: 0;
+        width: $arc-track-width;
+        height: 2px;
+        background: #dcdcdc;
+        margin-right: 0.5rem;
+    }
+
+    .arc-dot {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        cursor: default;
+
+        &.rtk { background: var(--arc-rtk); }
+        &.clpxp { background: var(--arc-clpxp); }
+        &.adep { background: var(--arc-adep); }
+        &.ndegron { background: var(--arc-ndegron); }
+        &.legionella { background: var(--arc-legionella); }
+    }
+
+    // Year ruler — one tick per calendar year, spaced identically to the
+    // dots above it. Ticks are plain <span>s with inline left:Npx in the
+    // markup, same scale as the dots.
+    .arc-years {
+        position: relative;
+        width: $arc-track-width;
+        height: 14px;
+        margin-left: calc(#{$arc-label-width} + #{$arc-row-gap});
+        font-size: 0.65rem;
+        color: #999999;
+        padding-top: 0.2rem;
+    }
+
+    .arc-year-tick {
+        position: absolute;
+        top: 0.2rem;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
 }
