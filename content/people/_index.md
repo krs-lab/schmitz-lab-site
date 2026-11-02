@@ -6,7 +6,7 @@ current_member_groups:
   - category: "Principal Investigator"
     members:
 
-    - name: "Karl R Schmitz, PhD - schmitzk[at]udel.edu"
+    - name: "Karl R Schmitz, PhD - schmitzk@udel.edu"
       photo: "Schmitz.jpg"
       bio: |
         BS from RPI;
