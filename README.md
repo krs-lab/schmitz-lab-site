@@ -40,5 +40,3 @@ Pushing to the `main` branch triggers the "Deploy Hugo site to Pages" workflow (
 
 Karl R. Schmitz, PhD, schmitzk@udel.edu  
 Departments of Biological Sciences and Department of Chemistry & Biochemistry, University of Delaware, Newark, DE 19716
-
-© Schmitz Lab. All rights reserved.
