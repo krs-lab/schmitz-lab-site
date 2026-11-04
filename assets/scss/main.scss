@@ -416,6 +416,30 @@ p.bg-ticker {
 		    font-style: italic;
 		    color: #333333;
 		}
+
+		/* Citation count badge */
+		.cite-badge {
+		    display: inline-block;
+		    margin-left: 0.5em;
+		    padding: 1px 8px;
+		    font-size: 0.75em;
+		    font-weight: 600;
+		    border-radius: 999px;
+		    background: #eef2f7;
+		    color: #2c5282;
+		    text-decoration: none;
+		    white-space: nowrap;
+		    vertical-align: middle;
+
+		    &:hover {
+			background: #dbe6f3;
+		    }
+
+		    &.cite-badge--na {
+			color: #999999;
+			background: #f2f2f2;
+		    }
+		}
 	    }
 	}
 }

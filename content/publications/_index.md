@@ -1,3 +1,7 @@
+---
+title: "Publications"
+draft: false
+---
 
 <div class="pub-links-bar">
     <a href="https://www.ncbi.nlm.nih.gov/myncbi/1paVudBH5gp/bibliography/public/" target="_blank" rel="noopener">NCBI Bibliography</a> &bull; 

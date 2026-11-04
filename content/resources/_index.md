@@ -1,3 +1,9 @@
+---
+title: "Resources"
+draft: false
+---
+
+
 The Schmitz Lab is committed to open science and sharing resources with the broader scientific community. 
 
 ## Useful External Resources
