@@ -36,10 +36,6 @@ Use `hugo server` for previewing changes, since a plain build points links at th
 
 Pushing to the `main` branch triggers the "Deploy Hugo site to Pages" workflow (`.github/workflows`), which builds the site with Hugo (`--gc --minify`) and publishes it to GitHub Pages. Changes usually appear within a few minutes.
 
-If a change doesn't show up, hard-refresh the page (Ctrl+Shift+R) and check the **Actions** tab for build errors.
-
-To upgrade Hugo, change `HUGO_VERSION` in the workflow and update your local install to match.
-
 ## Contact
 
 Karl R. Schmitz, PhD, schmitzk@udel.edu  
