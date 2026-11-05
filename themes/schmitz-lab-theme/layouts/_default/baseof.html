@@ -76,6 +76,9 @@
         <!-- DYNAMIC CONTENT AREA -->
         <main class="main-content-body">
             {{ block "main" . }}{{ end }}
+	    {{ if .IsHome }}
+	    	{{ partial "hero3d.html" . }}
+	    {{ end }}
         </main>
     </div>
 

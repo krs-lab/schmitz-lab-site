@@ -1,0 +1,73 @@
+<style>
+  .hero3d {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  .hero3d__viewer {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    cursor: grab;
+  }
+  .hero3d__viewer:active { cursor: grabbing; }
+  .hero3d__caption {
+    margin: .5rem 0 0;
+    font-size: .85rem;
+    color: #666;
+    text-align: justify;
+  }
+  .hero3d__caption .p1 { color: #2a6fdb; font-weight: 600; }
+  .hero3d__caption .p2 { color: #d08a10; font-weight: 600; }
+  .hero3d__caption a, .hero3d__cite a { color: #0b4a9e; }
+  @media (max-width: 800px) {
+    .hero3d__viewer { height: 320px; }
+  }
+</style>
+
+<section class="hero3d">
+  <div id="clpp-viewer" class="hero3d__viewer" aria-label="Rotating M. tuberculosis ClpP1P2 structure"></div>
+  <p class="hero3d__caption">
+    <em>M. tuberculosis</em> <span class="p1">ClpP1</span><span class="p2">P2</span>
+    (<a href="https://www.rcsb.org/structure/4U0G" target="_blank" rel="noopener">PDB 4U0G</a>;
+    <a href="https://doi.org/10.1073/pnas.1417120111" target="_blank" rel="noopener">Schmitz et al., <em>PNAS</em> 2014</a>)
+    · drag to rotate · click, then scroll to zoom
+  </p>
+</section>
+
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+<script>
+(function () {
+  var el = document.getElementById('clpp-viewer');
+  if (!el || typeof $3Dmol === 'undefined') return;
+
+  // Chains for ONE ClpP1P2 complex
+  var RING_A = ['A','B','C','D','E','F','G'];
+  var RING_B = ['H','I','J','K','L','M','N'];
+
+  // Wheel zoom only after clicking, so page scrolling still works
+  var zoomOn = false;
+  el.addEventListener('click', function () { zoomOn = true; });
+  el.addEventListener('mouseleave', function () { zoomOn = false; });
+  el.addEventListener('wheel', function (e) {
+    if (!zoomOn) e.stopImmediatePropagation();
+  }, true);
+
+  var viewer = $3Dmol.createViewer(el, { backgroundAlpha: 0 });
+
+  $3Dmol.download('pdb:4U0G', viewer, {}, function () {
+    viewer.setStyle({}, {});  // hide everything first
+    viewer.setStyle({ chain: RING_A }, { cartoon: { color: '#2a6fdb' } });
+    viewer.setStyle({ chain: RING_B }, { cartoon: { color: '#e0a030' } });
+
+    viewer.zoomTo({ chain: RING_A.concat(RING_B) });
+    viewer.render();
+
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      viewer.spin('y', 0.4);
+    }
+  });
+
+  window.addEventListener('resize', function () { viewer.resize(); });
+})();
+</script>
