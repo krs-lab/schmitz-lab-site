@@ -753,58 +753,82 @@ p.bg-ticker {
    RESEARCH ARC — timeline of the lab's major research threads
    ========================================================================== */
 .research-arc {
-    // Single source of truth for the timeline's geometry. 50px = one
-    // calendar year; 2005–2026 is 21 years, plus one year of trailing
-    // padding so the last dot isn't flush against the scroll edge.
-    // Every .arc-dot / .arc-year-tick position in the markup is a plain
-    // "left:Npx" computed from this same scale — deliberately NOT done
-    // with JS, since inline <script> in the page content is not reliably
-    // executed by this site, and CSS/inline-style positioning always works.
-    $arc-label-width: 190px;
+    $arc-label-width: 230px;
     $arc-row-gap: 0.75rem;
     $arc-track-width: 1100px; // (2026 - 2005 + 1) * 50px
 
-    max-width: 700px;
-    margin: 0 auto 2rem auto;
-    padding: 1.25rem 1rem 0.75rem 1rem;
+    width: 100%;
+    max-width: none;              // was 700px
+    box-sizing: border-box;
+    margin: 0 0 1.25rem 0;
+    padding: 0.5rem 0.75rem 0.25rem 0.75rem;
     border: 1px solid #e5e5e5;
-    border-radius: 6px;
+    border-radius: 10px;
     background: #fafafa;
 
-    // Everything (row labels + tracks + year ruler) lives inside .arc and
-    // scrolls together — matches the Idea 7 mockup's arc-wrap/.arc behavior,
-    // just widened out to a real 1-year-per-fixed-px scale instead of being
-    // squeezed to fit.
+    // direction:rtl on the scroller makes it open scrolled to the newest
+    // years; .arc flips back to ltr so everything inside reads normally.
     .arc-wrap {
         overflow-x: auto;
         padding-bottom: 10px;
+        direction: rtl;
         -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: #c4c4c4 transparent;
     }
 
     .arc {
         position: relative;
+        direction: ltr;
+        width: max-content;
+        min-width: 100%;
     }
 
     .arc-row {
+        --c: #999999;
         display: flex;
         align-items: center;
         gap: $arc-row-gap;
-        margin-bottom: 0.65rem;
+        padding: 0.55rem 0;
         white-space: nowrap;
+        background: #fafafa;
+
+        &:nth-of-type(even) { background: #f1f3f6; }
+
+        // each row takes its thread colour
+        &:has(.rtk)        { --c: var(--arc-rtk); }
+        &:has(.clpxp)      { --c: var(--arc-clpxp); }
+        &:has(.adep)       { --c: var(--arc-adep); }
+        &:has(.ndegron)    { --c: var(--arc-ndegron); }
+        &:has(.legionella) { --c: var(--arc-legionella); }
     }
 
+    // labels stay visible while the tracks scroll underneath
     .arc-label {
+        position: sticky;
+        left: 0;
+        z-index: 3;
+        box-sizing: border-box;
         flex: 0 0 #{$arc-label-width};
         width: $arc-label-width;
+        padding-right: 0.6rem;
+        background: inherit;
+        border-right: 3px solid var(--c);
         font-size: 0.78rem;
-        color: #333333;
-        line-height: 1.2;
-        text-align: right; // Row titles sit flush against where the track starts
+        font-weight: 600;
+        color: #2b2b2b;
+        line-height: 1.25;
+        text-align: right;
         white-space: normal;
 
-        .arc-era {
-            color: #888888;
-            font-size: 0.72rem;
+	.arc-era {
+            display: inline;      // was block
+            margin-left: 0.3rem;
+            color: #666666;
+            font-size: 0.68rem;
+            font-weight: 400;
+            letter-spacing: 0.03em;
+            white-space: nowrap;  // keeps "(PI)" from splitting
         }
     }
 
@@ -812,19 +836,30 @@ p.bg-ticker {
         position: relative;
         flex-shrink: 0;
         width: $arc-track-width;
-        height: 2px;
-        background: #dcdcdc;
+        height: 3px;
+        border-radius: 2px;
         margin-right: 0.5rem;
+        background: #dcdcdc;
+        background: color-mix(in srgb, var(--c) 30%, #e8e8e8);
     }
 
     .arc-dot {
         position: absolute;
         top: 50%;
         transform: translate(-50%, -50%);
-        width: 9px;
-        height: 9px;
+        box-sizing: border-box;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #ffffff;      // white ring separates overlapping dots
         border-radius: 50%;
-        cursor: default;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: transform 0.15s ease;
+
+        &:hover {
+            transform: translate(-50%, -50%) scale(1.45);
+            z-index: 2;
+        }
 
         &.rtk { background: var(--arc-rtk); }
         &.clpxp { background: var(--arc-clpxp); }
@@ -833,23 +868,29 @@ p.bg-ticker {
         &.legionella { background: var(--arc-legionella); }
     }
 
-    // Year ruler — one tick per calendar year, spaced identically to the
-    // dots above it. Ticks are plain <span>s with inline left:Npx in the
-    // markup, same scale as the dots.
     .arc-years {
         position: relative;
         width: $arc-track-width;
-        height: 14px;
+        height: 18px;
         margin-left: calc(#{$arc-label-width} + #{$arc-row-gap});
         font-size: 0.65rem;
-        color: #999999;
-        padding-top: 0.2rem;
+        color: #8a8a8a;
+        border-top: 1px solid #e0e0e0;
     }
 
     .arc-year-tick {
         position: absolute;
-        top: 0.2rem;
+        top: 0.45rem;
         transform: translateX(-50%);
         white-space: nowrap;
+
+        &::before {                       // small tick mark above each year
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: -0.45rem;
+            height: 5px;
+            border-left: 1px solid #c8c8c8;
+        }
     }
 }
