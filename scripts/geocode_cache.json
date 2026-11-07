@@ -1,0 +1,86 @@
+{
+ "Brown University": [
+  41.82399,
+  -71.41283
+ ],
+ "Massachusetts Institute of Technology": [
+  42.3751,
+  -71.10561
+ ],
+ "Howard Hughes Medical Institute": [
+  39.00287,
+  -77.07115
+ ],
+ "University of Delaware": [
+  39.68372,
+  -75.74966
+ ],
+ "University of Pennsylvania": [
+  39.95238,
+  -75.16362
+ ],
+ "Memorial Sloan Kettering Cancer Center": [
+  40.71427,
+  -74.00597
+ ],
+ "Vanderbilt University": [
+  36.16589,
+  -86.78444
+ ],
+ "Delft University of Technology": [
+  52.00667,
+  4.35556
+ ],
+ "Utrecht University": [
+  52.09083,
+  5.12222
+ ],
+ "Yale University": [
+  41.30815,
+  -72.92816
+ ],
+ "Johns Hopkins University": [
+  39.29038,
+  -76.61219
+ ],
+ "Children's Hospital of Chongqing Medical University": [
+  29.55525779724121,
+  106.55440521240234
+ ],
+ "Wenzhou Medical University": [
+  27.99942,
+  120.66682
+ ],
+ "Boston Children's Hospital": [
+  42.35843,
+  -71.05977
+ ],
+ "Kunming Institute of Zoology": [
+  25.038890838623047,
+  102.71833038330078
+ ],
+ "Delaware Biotechnology Institute": [
+  39.68372,
+  -75.74966
+ ],
+ "University of Pittsburgh": [
+  40.44062,
+  -79.99589
+ ],
+ "Indiana University Bloomington": [
+  39.16533,
+  -86.52639
+ ],
+ "Washington University in St. Louis": [
+  38.62727,
+  -90.19789
+ ],
+ "Morehouse College": [
+  33.74737,
+  -84.4161
+ ],
+ "Rensselaer Polytechnic Institute": [
+  42.7299,
+  -73.67967
+ ]
+}

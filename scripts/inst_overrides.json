@@ -1,0 +1,57 @@
+{
+  "boston children": {
+    "inst": "Boston Children's Hospital",
+    "lat": 42.3375,
+    "lon": -71.1054
+  },
+  "harvard medical school": {
+    "inst": "Harvard Medical School",
+    "lat": 42.3355,
+    "lon": -71.1035
+  },
+  "university of pennsylvania": {
+    "inst": "University of Pennsylvania",
+    "lat": 39.95238,
+    "lon": -75.16362
+  },
+  "yale university": {
+    "inst": "Yale University",
+    "lat": 41.3163,
+    "lon": -72.9223
+  },
+  "johns hopkins university": {
+    "inst": "Johns Hopkins University",
+    "lat": 39.2972,
+    "lon": -76.5927
+  },
+  "oujiang laboratory": {
+    "inst": "Oujiang Laboratory",
+    "lat": 27.9937,
+    "lon": 120.699
+  },
+  "kavli institute of nanoscience": {
+    "inst": "Delft University of Technology",
+    "lat": 52.0022,
+    "lon": 4.3736
+  },
+  "data science institute": {
+    "inst": "University of Delaware",
+    "lat": 39.681,
+    "lon": -75.754
+  },
+  "perelman school of medicine": {
+    "inst": "University of Pennsylvania",
+    "lat": 39.95238,
+    "lon": -75.16362
+  },
+  "university of california, san francisco": {
+    "inst": "University of California, San Francisco",
+    "lat": 37.76273,
+    "lon": -122.45826
+  },
+  "kunming institute of zoology": {
+    "inst": "Kunming Institute of Zoology, Chinese Academy of Sciences",
+    "lat": 25.0436,
+    "lon": 102.736
+  }
+}

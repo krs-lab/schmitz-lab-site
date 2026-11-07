@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+  #collab-map {
+    width: 100%;
+    aspect-ratio: 2.2 / 1;
+    min-height: 280px;
+    max-height: 460px;
+    border-radius: 6px;
+  }
+</style>
+<div id="collab-map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const map = L.map("collab-map", {
+  minZoom: 1,
+  zoomSnap: 0.25,
+  worldCopyJump: true,
+  scrollWheelZoom: false   // stops the map from hijacking page scrolling
+}).setView([39.68, -75.75], 3);
+
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19, attribution: "© OpenStreetMap"
+}).addTo(map);
+
+const cluster = L.markerClusterGroup({ spiderfyOnMaxZoom: true, maxClusterRadius: 40 });
+fetch("{{ "data/people.json" | relURL }}").then(r => r.json()).then(people => {
+  people.forEach(p => {
+    cluster.addLayer(
+      L.marker([p.lat, p.lon])
+        .bindPopup("<b>" + p.name + "</b><br>" + p.inst)
+        .bindTooltip(p.name)
+    );
+  });
+  map.addLayer(cluster);
+  map.invalidateSize();
+  map.fitBounds(cluster.getBounds().pad(0.1));
+});
+</script>

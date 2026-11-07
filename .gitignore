@@ -30,3 +30,7 @@ ehthumbs.db
 *.tiff
 *.raw
 *Zone.Identifier
+scripts/backups/
+scripts/verify_report.csv
+scripts/verify_geocache.json
+scripts/__pycache__/
