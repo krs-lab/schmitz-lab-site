@@ -3,702 +3,760 @@
   "name": "Daniel W. Carney",
   "inst": "Brown University",
   "lat": 41.82399,
-  "lon": -71.41283
+  "lon": -71.41283,
+  "year": 2015,
+  "papers": 4
  },
  {
   "name": "Corey L. Compton",
   "inst": "Brown University",
   "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Karl R. Schmitz",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
+  "lon": -71.41283,
+  "year": 2022,
+  "papers": 3
  },
  {
   "name": "Julia P. Stevens",
   "inst": "Brown University",
   "lat": 41.82399,
-  "lon": -71.41283
+  "lon": -71.41283,
+  "year": 0,
+  "papers": 1
  },
  {
   "name": "Robert T. Sauer",
   "inst": "Massachusetts Institute of Technology",
   "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Jason K. Sello",
-  "inst": "Brown University",
-  "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Anthony C. Scruse",
-  "inst": "Brown University",
-  "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Alvaro J. Amor",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Tania A. Baker",
-  "inst": "Howard Hughes Medical Institute",
-  "lat": 39.00287,
-  "lon": -77.07115
- },
- {
-  "name": "Pratistha Kandel",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Patrick C. Beardslee",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Shiqing Li",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Philip D. Jeffrey",
-  "inst": "Memorial Sloan Kettering Cancer Center",
-  "lat": 40.71427,
-  "lon": -74.00597
- },
- {
-  "name": "Kathryn M. Ferguson",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Katarina Moravcevic",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Jeannine M. Mendrola",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "YH Wang",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "David R. Slochower",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Paul A. Janmey",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Mark A. Lemmon",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Benjamin M. Stinson",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Andrew R. Nager",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Steven E. Glynn",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Juan Carlos Cordova",
-  "inst": "Vanderbilt University",
-  "lat": 36.16589,
-  "lon": -86.78444
- },
- {
-  "name": "Adrian O. Olivares",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Yongdae Shin",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Stéphane Calmat",
-  "inst": "Howard Hughes Medical Institute",
-  "lat": 39.00287,
-  "lon": -77.07115
- },
- {
-  "name": "Marie‐Eve Aubin‐Tam",
-  "inst": "Delft University of Technology",
-  "lat": 52.00667,
-  "lon": 4.35556
- },
- {
-  "name": "Matthew J. Lang",
-  "inst": "Vanderbilt University",
-  "lat": 36.16589,
-  "lon": -86.78444
- },
- {
-  "name": "Jingxuan Liu",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Thanuja Gangi Setty",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Christopher S. Wood",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Christopher G. Burd",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Chun-Chi Lin",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Yu‐San Huoh",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Liselotte E. Jensen",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Atrish Bagchi",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Rob C. Roovers",
-  "inst": "Utrecht University",
-  "lat": 52.09083,
-  "lon": 5.12222
- },
- {
-  "name": "Paul M.P. van Bergen en Henegouwen",
-  "inst": "Utrecht University",
-  "lat": 52.09083,
-  "lon": 5.12222
- },
- {
-  "name": "Diego Alvarado",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Jon A. Kenniston",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Steven E. Stayrook",
-  "inst": "Yale University",
-  "lat": 41.30815,
-  "lon": -72.92816
- },
- {
-  "name": "Katerina T. Xenaki",
-  "inst": "Utrecht University",
-  "lat": 52.09083,
-  "lon": 5.12222
- },
- {
-  "name": "C.A. Starbird",
-  "inst": "Yale University",
-  "lat": 41.30815,
-  "lon": -72.92816
- },
- {
-  "name": "Sofia Doulkeridou",
-  "inst": "Utrecht University",
-  "lat": 52.09083,
-  "lon": 5.12222
- },
- {
-  "name": "Rachid el Khoulati",
-  "inst": "Utrecht University",
-  "lat": 52.09083,
-  "lon": 5.12222
- },
- {
-  "name": "Emma L. Handy",
-  "inst": "Brown University",
-  "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Shashank Gupta",
-  "inst": "Johns Hopkins University",
-  "lat": 39.29038,
-  "lon": -76.61219
- },
- {
-  "name": "William R. Bishai",
-  "inst": "Johns Hopkins University",
-  "lat": 39.29038,
-  "lon": -76.61219
- },
- {
-  "name": "Jonathan V. Truong",
-  "inst": "Brown University",
-  "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Vladimir Baytshtok",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
- },
- {
-  "name": "Yu Jie Shi",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Daochao Huang",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Cui Song",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Ruixue Cao",
-  "inst": "Wenzhou Medical University",
-  "lat": 27.99942,
-  "lon": 120.66682
- },
- {
-  "name": "Zhao Wang",
-  "inst": "Wenzhou Medical University",
-  "lat": 27.99942,
-  "lon": 120.66682
- },
- {
-  "name": "Dan Wang",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Li Zhao",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Xiaolu Xu",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Congyu Lu",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Feng Xiong",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Haowen Zhao",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Shuxiang Li",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Quansheng Zhou",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Shuyue Luo",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Dongjie Hu",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Yun Zhang",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Cui Wang",
-  "inst": "Children's Hospital of Chongqing Medical University",
-  "lat": 29.55525779724121,
-  "lon": 106.55440521240234
- },
- {
-  "name": "Yiping Shen",
-  "inst": "Boston Children's Hospital",
-  "lat": 42.35843,
-  "lon": -71.05977
- },
- {
-  "name": "Weiting Su",
-  "inst": "Kunming Institute of Zoology",
-  "lat": 25.038890838623047,
-  "lon": 102.71833038330078
- },
- {
-  "name": "Yili Wu",
-  "inst": "Wenzhou Medical University",
-  "lat": 27.99942,
-  "lon": 120.66682
- },
- {
-  "name": "Shuo Wei",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Weihong Song",
-  "inst": "Wenzhou Medical University",
-  "lat": 27.99942,
-  "lon": 120.66682
- },
- {
-  "name": "Nicholas J. Bessman",
-  "inst": "University of Pennsylvania",
-  "lat": 39.95238,
-  "lon": -75.16362
- },
- {
-  "name": "Christopher J. Presloid",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Jialiu Jiang",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Henry R. Anderson",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Thomas M. Swayne",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Emmanuel C. Ogbonna",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Abigail Bolt",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Abby E. Richardson",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Colleen M. Pike",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Rebecca R. Noll",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Yanbao Yu",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Joshua P. Neunuebel",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Sylvain LeMarchand",
-  "inst": "Delaware Biotechnology Institute",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "M. Ramona Neunuebel",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Priyanka Bheemreddy",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Kaustuv Das",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Kathryn G. Dzurik",
-  "inst": "University of Pittsburgh",
-  "lat": 40.44062,
-  "lon": -79.99589
- },
- {
-  "name": "Yogeshwari Singh",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Jared M. Schrader",
-  "inst": "Indiana University Bloomington",
-  "lat": 39.16533,
-  "lon": -86.52639
- },
- {
-  "name": "W. Seth Childers",
-  "inst": "University of Pittsburgh",
-  "lat": 40.44062,
-  "lon": -79.99589
- },
- {
-  "name": "Jeremy G. Bird",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Petra Anne Levin",
-  "inst": "Washington University in St. Louis",
-  "lat": 38.62727,
-  "lon": -90.19789
- },
- {
-  "name": "Karl R. Schmitz",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Emmanuel C. Ogbonna",
-  "inst": "Harvard Medical School",
-  "lat": 42.3355,
-  "lon": -71.1035
- },
- {
-  "name": "Sylvain Le Marchand",
-  "inst": "University of Delaware",
-  "lat": 39.68372,
-  "lon": -75.74966
- },
- {
-  "name": "Ruixue Cao",
-  "inst": "Oujiang Laboratory",
-  "lat": 27.9937,
-  "lon": 120.699
- },
- {
-  "name": "Zhao Wang",
-  "inst": "Oujiang Laboratory",
-  "lat": 27.9937,
-  "lon": 120.699
- },
- {
-  "name": "Yiping Shen",
-  "inst": "Boston Children's Hospital",
-  "lat": 42.3375,
-  "lon": -71.1054
- },
- {
-  "name": "Weiting Su",
-  "inst": "Kunming Institute of Zoology, Chinese Academy of Sciences",
-  "lat": 25.0436,
-  "lon": 102.736
- },
- {
-  "name": "Yili Wu",
-  "inst": "Oujiang Laboratory",
-  "lat": 27.9937,
-  "lon": 120.699
- },
- {
-  "name": "Weihong Song",
-  "inst": "Oujiang Laboratory",
-  "lat": 27.9937,
-  "lon": 120.699
- },
- {
-  "name": "Shashank Gupta",
-  "inst": "Brown University",
-  "lat": 41.82399,
-  "lon": -71.41283
- },
- {
-  "name": "Shashank Gupta",
-  "inst": "Johns Hopkins University",
-  "lat": 39.2972,
-  "lon": -76.5927
- },
- {
-  "name": "William R. Bishai",
-  "inst": "Johns Hopkins University",
-  "lat": 39.2972,
-  "lon": -76.5927
+  "lon": -71.10561,
+  "year": 2022,
+  "papers": 12
  },
  {
   "name": "Jason K. Sello",
   "inst": "University of California, San Francisco",
   "lat": 37.76273,
-  "lon": -122.45826
- },
- {
-  "name": "Tania A. Baker",
-  "inst": "Massachusetts Institute of Technology",
-  "lat": 42.3751,
-  "lon": -71.10561
+  "lon": -122.45826,
+  "year": 2022,
+  "papers": 7
  },
  {
   "name": "Anthony C. Scruse",
   "inst": "Morehouse College",
   "lat": 33.74737,
-  "lon": -84.4161
+  "lon": -84.4161,
+  "year": 2015,
+  "papers": 1
  },
  {
-  "name": "Stephane Calmat",
+  "name": "Alvaro J. Amor",
   "inst": "Massachusetts Institute of Technology",
   "lat": 42.3751,
-  "lon": -71.10561
+  "lon": -71.10561,
+  "year": 2019,
+  "papers": 2
  },
  {
-  "name": "Marie-Eve Aubin-Tam",
-  "inst": "Delft University of Technology",
-  "lat": 52.0022,
-  "lon": 4.3736
+  "name": "Tania A. Baker",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2019,
+  "papers": 5
  },
  {
-  "name": "Steven E. Stayrook",
-  "inst": "Yale University",
-  "lat": 41.3163,
-  "lon": -72.9223
+  "name": "Pratistha Kandel",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 3
  },
  {
-  "name": "Chrystal A. Starbird",
-  "inst": "Yale University",
-  "lat": 41.3163,
-  "lon": -72.9223
+  "name": "Patrick C. Beardslee",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 4
+ },
+ {
+  "name": "Shiqing Li",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2005,
+  "papers": 2
+ },
+ {
+  "name": "Philip D. Jeffrey",
+  "inst": "Memorial Sloan Kettering Cancer Center",
+  "lat": 40.71427,
+  "lon": -74.00597,
+  "year": 0,
+  "papers": 1
  },
  {
   "name": "Kathryn M. Ferguson",
   "inst": "Yale University",
   "lat": 41.3163,
-  "lon": -72.9223
+  "lon": -72.9223,
+  "year": 2024,
+  "papers": 8
  },
  {
-  "name": "Karl R. Schmitz",
+  "name": "Katarina Moravcevic",
   "inst": "University of Pennsylvania",
   "lat": 39.95238,
-  "lon": -75.16362
+  "lon": -75.16362,
+  "year": 2015,
+  "papers": 2
+ },
+ {
+  "name": "Jeannine M. Mendrola",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2015,
+  "papers": 2
+ },
+ {
+  "name": "YH Wang",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "David R. Slochower",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Paul A. Janmey",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Mark A. Lemmon",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2015,
+  "papers": 2
+ },
+ {
+  "name": "Benjamin M. Stinson",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2015,
+  "papers": 3
+ },
+ {
+  "name": "Andrew R. Nager",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Steven E. Glynn",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Juan Carlos Cordova",
+  "inst": "Vanderbilt University",
+  "lat": 36.16589,
+  "lon": -86.78444,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Adrian O. Olivares",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Yongdae Shin",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Stephane Calmat",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Marie-Eve Aubin-Tam",
+  "inst": "Delft University of Technology",
+  "lat": 52.0022,
+  "lon": 4.3736,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Matthew J. Lang",
+  "inst": "Vanderbilt University",
+  "lat": 36.16589,
+  "lon": -86.78444,
+  "year": 2014,
+  "papers": 1
+ },
+ {
+  "name": "Jingxuan Liu",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Thanuja Gangi Setty",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 2
+ },
+ {
+  "name": "Christopher S. Wood",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2009,
+  "papers": 2
+ },
+ {
+  "name": "Christopher G. Burd",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 2
+ },
+ {
+  "name": "Chun-Chi Lin",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2008,
+  "papers": 1
+ },
+ {
+  "name": "Yu‐San Huoh",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Liselotte E. Jensen",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Atrish Bagchi",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2024,
+  "papers": 2
+ },
+ {
+  "name": "Rob C. Roovers",
+  "inst": "Utrecht University",
+  "lat": 52.09083,
+  "lon": 5.12222,
+  "year": 2024,
+  "papers": 2
+ },
+ {
+  "name": "Paul M.P. van Bergen en Henegouwen",
+  "inst": "Utrecht University",
+  "lat": 52.09083,
+  "lon": 5.12222,
+  "year": 2024,
+  "papers": 2
+ },
+ {
+  "name": "Diego Alvarado",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2015,
+  "papers": 1
+ },
+ {
+  "name": "Jon A. Kenniston",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 2015,
+  "papers": 1
+ },
+ {
+  "name": "Steven E. Stayrook",
+  "inst": "Yale University",
+  "lat": 41.3163,
+  "lon": -72.9223,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Katerina T. Xenaki",
+  "inst": "Utrecht University",
+  "lat": 52.09083,
+  "lon": 5.12222,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Chrystal A. Starbird",
+  "inst": "Yale University",
+  "lat": 41.3163,
+  "lon": -72.9223,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Sofia Doulkeridou",
+  "inst": "Utrecht University",
+  "lat": 52.09083,
+  "lon": 5.12222,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Rachid el Khoulati",
+  "inst": "Utrecht University",
+  "lat": 52.09083,
+  "lon": 5.12222,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Emma L. Handy",
+  "inst": "Brown University",
+  "lat": 41.82399,
+  "lon": -71.41283,
+  "year": 2022,
+  "papers": 1
+ },
+ {
+  "name": "Shashank Gupta",
+  "inst": "Johns Hopkins University",
+  "lat": 39.2972,
+  "lon": -76.5927,
+  "year": 2022,
+  "papers": 1
+ },
+ {
+  "name": "William R. Bishai",
+  "inst": "Johns Hopkins University",
+  "lat": 39.2972,
+  "lon": -76.5927,
+  "year": 2022,
+  "papers": 1
+ },
+ {
+  "name": "Jonathan V. Truong",
+  "inst": "Brown University",
+  "lat": 41.82399,
+  "lon": -71.41283,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Vladimir Baytshtok",
+  "inst": "Massachusetts Institute of Technology",
+  "lat": 42.3751,
+  "lon": -71.10561,
+  "year": 2015,
+  "papers": 1
+ },
+ {
+  "name": "Yu Jie Shi",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Daochao Huang",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Cui Song",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Ruixue Cao",
+  "inst": "Oujiang Laboratory",
+  "lat": 27.9937,
+  "lon": 120.699,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Zhao Wang",
+  "inst": "Oujiang Laboratory",
+  "lat": 27.9937,
+  "lon": 120.699,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Dan Wang",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Li Zhao",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Xiaolu Xu",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Congyu Lu",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Feng Xiong",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Haowen Zhao",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Shuxiang Li",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Quansheng Zhou",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Shuyue Luo",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Dongjie Hu",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Yun Zhang",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Cui Wang",
+  "inst": "Children's Hospital of Chongqing Medical University",
+  "lat": 29.55525779724121,
+  "lon": 106.55440521240234,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Yiping Shen",
+  "inst": "Boston Children's Hospital",
+  "lat": 42.3375,
+  "lon": -71.1054,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Weiting Su",
+  "inst": "Kunming Institute of Zoology, Chinese Academy of Sciences",
+  "lat": 25.0436,
+  "lon": 102.736,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Yili Wu",
+  "inst": "Oujiang Laboratory",
+  "lat": 27.9937,
+  "lon": 120.699,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Shuo Wei",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Weihong Song",
+  "inst": "Oujiang Laboratory",
+  "lat": 27.9937,
+  "lon": 120.699,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Nicholas J. Bessman",
+  "inst": "University of Pennsylvania",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Christopher J. Presloid",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Jialiu Jiang",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 2
+ },
+ {
+  "name": "Henry R. Anderson",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 4
+ },
+ {
+  "name": "Thomas M. Swayne",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2024,
+  "papers": 1
+ },
+ {
+  "name": "Emmanuel C. Ogbonna",
+  "inst": "Harvard Medical School",
+  "lat": 42.3355,
+  "lon": -71.1035,
+  "year": 2026,
+  "papers": 3
+ },
+ {
+  "name": "Abigail Bolt",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Abby E. Richardson",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Colleen M. Pike",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Rebecca R. Noll",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Yanbao Yu",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 2
+ },
+ {
+  "name": "Joshua P. Neunuebel",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Sylvain Le Marchand",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "M. Ramona Neunuebel",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2026,
+  "papers": 1
+ },
+ {
+  "name": "Priyanka Bheemreddy",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 2023,
+  "papers": 1
+ },
+ {
+  "name": "Kaustuv Das",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Kathryn G. Dzurik",
+  "inst": "University of Pittsburgh",
+  "lat": 40.44062,
+  "lon": -79.99589,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Yogeshwari Singh",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Jared M. Schrader",
+  "inst": "Indiana University Bloomington",
+  "lat": 39.16533,
+  "lon": -86.52639,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "W. Seth Childers",
+  "inst": "University of Pittsburgh",
+  "lat": 40.44062,
+  "lon": -79.99589,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Jeremy G. Bird",
+  "inst": "University of Delaware",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "year": 0,
+  "papers": 1
+ },
+ {
+  "name": "Petra Anne Levin",
+  "inst": "Washington University in St. Louis",
+  "lat": 38.62727,
+  "lon": -90.19789,
+  "year": 0,
+  "papers": 0
  },
  {
   "name": "Ying Li",
   "inst": "Rensselaer Polytechnic Institute",
   "lat": 42.7299,
-  "lon": -73.67967
+  "lon": -73.67967,
+  "year": 2007,
+  "papers": 1
  }
 ]
