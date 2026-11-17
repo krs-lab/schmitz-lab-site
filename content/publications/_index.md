@@ -105,7 +105,10 @@ draft: false
 
 <ul class="publications-list">
    <li>
-Fei F, <span class="author-grad">Burnside CM</span>, Lun S, Wee D, Kaur M,  <span class="author-grad">Anderson HR</span>, McCarroll MN,  <span class="author-grad">Richardson AE</span>, <span class="author-grad">Neglia SE</span>, Liu H, Wang X, Gupta S, Rhee KY, Wright GD, Bryson BD, Oehlers SH, Bishai WR, <strong>Schmitz KR</strong>, Sello JK. Structural and mechanistric studies of ADEPs yield a potent antibacterials and a drug formulation strategy for tuberculosis. <em>J Med Chem</em>. 2026. <i>in press</i>
+<span class="author-grad">Kandel P</span>, <span class="author-grad">Hojjati F</span>, <strong>Schmitz KR</strong>. <a href="https://www.biorxiv.org/content/10.64898/2026.11.12.766067v1">Shared characteristics establish <i>Corynebacterium glutamicum</i> ClpCP1P2 as a tractable model for mycobacterial orthologs</a>. <em>biRxiv</em> [Preprint]. 2026 Nov 12. doi: 10.64898/2026.11.12.766067
+   </li>
+   <li>
+Fei F, <span class="author-grad">Burnside CM</span>, Lun S, Wee D, Kaur M,  <span class="author-grad">Anderson HR</span>, McCarroll MN,  <span class="author-grad">Richardson AE</span>, <span class="author-grad">Neglia SE</span>, Liu H, Wang X, Gupta S, Rhee KY, Wright GD, Bryson BD, Oehlers SH, Bishai WR, <strong>Schmitz KR</strong>, Sello JK. <a href="https://pubs.acs.org/jmcmar/article/69/18/21233/5397834/Structural-and-Mechanistic-Studies-of-ADEPs-Yield">Structural and mechanistic studies of ADEPs yield a potent antibacterials and a drug formulation strategy for tuberculosis.</a> <em>J Med Chem</em>. 2026. 69 (18): 21233–21256. PMID: <a href="" target="_blank" rel="noopener">42727081</a>
    </li>
    <li>
 <span class="author-grad">Kandel P</span>,  <span class="author-grad">Beardslee PC</span>, <strong>Schmitz KR</strong>. <a href="https://link.springer.com/protocol/10.1007/978-1-0716-5508-5_17">Assessment of Bacterial N-Degron Proteolysis by a Dual-Fluorescence Reporter</a>. <em>Methods Mol Biol</em>. 2026;3069:233-245. doi: 10.1007/978-1-0716-5508-5_17. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42573702/">42573702</a>.
